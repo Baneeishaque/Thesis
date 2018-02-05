@@ -50,8 +50,8 @@
 \renewcommand{\bibname}{REFERENCES}
 	
 \newenvironment{acknowledgement}%       New acknowledgement environment
-	{\large\bfseries Acknowledgement%
-	\par\medskip\normalfont\normalsize}%
+	%{\large\bfseries Acknowledgement%
+	%\par\medskip\normalfont\normalsize}%
 {}%
 
 \begin{document}
@@ -71,49 +71,56 @@
 	\input{1.Frontpage.tex}
 	%\input{2.Declaration.tex}
 	\input{2.Certificate.tex}
-	%\input{3.Acknowledgement.tex}
-	%\input{5.Abstract.tex}
+	\input{3.Acknowledgement.tex}
+	\input{4.Abstract.tex}
 		
 	\addtocontents{toc}{\protect\thispagestyle{empty}}
-		\addtocontents{toc}{Contents ~\hfill Page No.\par}
-		\addtocontents{toc}{\vspace{\normalbaselineskip}}
+	\addtocontents{toc}{Contents ~\hfill Page No.\par}
+	\addtocontents{toc}{\vspace{\normalbaselineskip}}
 
-		
-		\pagenumbering{roman}
-		\addcontentsline{toc}{chapter}{\normalfont\normalsize ACKNOWLEDGEMENT}
+	\pagenumbering{roman}
+	\addcontentsline{toc}{chapter}{\normalfont\normalsize ACKNOWLEDGEMENT}
 
-		\newpage
+	\newpage
 
-		
-		\addcontentsline{toc}{chapter}{\normalfont\normalsize ABSTRACT}
+	\addcontentsline{toc}{chapter}{\normalfont\normalsize ABSTRACT}
 
-		\newpage
+	\newpage
 
-		\tableofcontents
- 		\thispagestyle{empty}
+	\tableofcontents
+ 	\thispagestyle{empty}
 
-		\newpage
-		\listoftables
-		\addcontentsline{toc}{chapter}{\normalfont\normalsize LIST OF TABLES}
-		\addtocontents{lot}{\protect{\hspace{0.5cm} No. \hspace{3cm} Title \hspace{7.3cm} Page No.\par}}
+	\newpage
+	\listoffigures
+	\addcontentsline{toc}{chapter}{\normalfont\normalsize LIST OF FIGURES}
+	\addtocontents{lof}{\protect{\hspace{0.5cm} No. \hspace{3cm} Title \hspace{7.3cm} Page No.\par}}
 
-		\newpage
-		\listoffigures
-		\addcontentsline{toc}{chapter}{\normalfont\normalsize LIST OF FIGURES}
-		\addtocontents{lof}{\protect{\hspace{0.5cm} No. \hspace{3cm} Title \hspace{7.3cm} Page No.\par}}
+	\newpage
+	\listoffigures
+	\addcontentsline{toc}{chapter}{\normalfont\normalsize LIST OF CHARTS}
+	\addtocontents{lot}{\protect{\hspace{0.5cm} No. \hspace{3cm} Title \hspace{7.3cm} Page No.\par}}
 
-		\let\cleardoublepage\clearpage
+	\newpage
+	\listoftables
+	\addcontentsline{toc}{chapter}{\normalfont\normalsize LIST OF TABLES}
+	\addtocontents{lot}{\protect{\hspace{0.5cm} No. \hspace{3cm} Title \hspace{7.3cm} Page No.\par}}
 
-		%\input{list_of_abbreviations.tex}
-		\addcontentsline{toc}{chapter}{\normalfont\normalsize ABBREVIATIONS}
-		%\input{list_of_symbols.tex}
-		\addcontentsline{toc}{chapter}{\normalfont\normalsize NOTATIONS}
+	\newpage
+	\listoftables
+	\addcontentsline{toc}{chapter}{\normalfont\normalsize LIST OF APPENDICES}
+	\addtocontents{lot}{\protect{\hspace{0.5cm} No. \hspace{3cm} Title \hspace{7.3cm} Page No.\par}}
 
-		%\input{6.body_of_thesis.tex}
+	\let\cleardoublepage\clearpage
 
-		%\input{7.References.tex}
-		%\input{8.Appendix.tex}
-		%\input{9.Publication.tex}
+	%\input{list_of_abbreviations.tex}
+	%\addcontentsline{toc}{chapter}{\normalfont\normalsize ABBREVIATIONS}
+	%\input{list_of_symbols.tex}
+	%\addcontentsline{toc}{chapter}{\normalfont\normalsize NOTATIONS}
+
+	%\input{6.body_of_thesis.tex}
+	%\input{7.References.tex}
+	%\input{8.Appendix.tex}
+	%\input{9.Publication.tex}
 	
-	\end{document}
+\end{document}
 

@@ -1,0 +1,165 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage{amsmath, amssymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{graphicx}
+\usepackage[left=3.75cm,right=3cm,top=2.5cm,bottom=3cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{float}
+%\usepackage[options]{natbib}
+\usepackage{romannum}
+\usepackage{parskip}
+\usepackage{sidecap}
+\usepackage{float}
+\usepackage{url}
+\usepackage{cite}
+%\setmainfont{Times New Roman}
+
+\usepackage{mathptmx}
+
+\usepackage{chngcntr}
+\usepackage{verbatim}
+%\counterwithout{theorem}{chapter}
+\usepackage{titlesec}
+\usepackage{setspace}
+%\usepackage{caption}
+
+%\usepackage[square,comma,sort&compress]{natbib}
+\usepackage[caption=false]{subfig}
+\usepackage{pseudocode}
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\usepackage{multibib}
+
+%\usepackage{caption}
+%\usepackage{appendix}
+%%%%%%%%start
+%\usepackage{caption}
+%...
+%\noindent%
+%\begin{minipage}{\linewidth}% to keep image and caption on one page
+%\makebox[\linewidth]{%        to center the image
+ % \includegraphics[keepaspectratio=true,scale=0.6]{slike/visina8}}
+%\captionof{figure}{...}\label{visina8}%      only if needed  
+%\end{minipage}
+%%%%%%%%%%%%%%%%%%%end
+%\newlength\myindent
+%\setlength\myindent{2e}
+%\newcommand\bindent{
+ % \begingroup
+  % \setlength{\itemindent}{\myindent}
+   %\addtolength{\algorithmicindent}{\myindent}
+   %}
+   %\newcommand\eindent{\endgroup}
+%\usepackage{amssymb}
+
+\date{}
+\author{NameOfAuthor}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage[nottoc,notlof,notlot]{tocbibind}
+
+\usepackage{tocloft} % the tocloft package lets you redefine the Table of Contents (ToC)
+  \renewcommand\cftchappresnum{Chapter  }
+  \renewcommand{\cftchapaftersnum}{.}
+
+  \cftsetindents{chapter}{0em}{5em}      % set amount of indenting
+  \cftsetindents{section}{5em}{2em}
+  \cftsetindents{subsection}{7em}{3em}
+  \addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0pt}}
+  \renewcommand\cftchapfont{\mdseries}
+\renewcommand\cftchappagefont{\mdseries}
+
+ 
+
+\renewcommand{\contentsname}{\hfill\bfseries\Large CONTENTS\hfill}   
+\renewcommand{\cftaftertoctitle}{\hfill}
+
+\renewcommand\listfigurename{\hfill\bfseries\Large LIST OF FIGURES\hfill}
+
+\renewcommand\listtablename{\hfill\bfseries\Large LIST OF TABLES\hfill}
+
+
+%\renewcommand*\contentsname{CONTENTS}
+
+\renewcommand{\bibname}{REFERENCES}
+
+%\renewcommand{\bibname}{List of Publications}
+\begin{document}
+
+\titleformat{\chapter}[display]
+{\centering \Large\bfseries}
+%{\normalfont\fontsize{16pt}{12pt}\selectfont\bfseries}
+{\MakeUppercase{\chaptertitlename}\ \thechapter}{16pt}{\Large\bfseries}
+%{\normalfont\fontfamily{phv}\fontsize{16}{19}\bfseries}{\thechapter}{1em}{}
+
+%\titleformat{\section}[block]{\normalsize\bfseries}{{\thesection}}{1em}{}
+
+\titleformat{\section}
+  {\normalfont\fontsize{14}{12}\selectfont\bfseries}{\thesection}{1em}{}
+
+
+%\titleformat{\subsection}[block]{\normalsize\bfseries}{{ \thesubsection}}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\fontsize{12}{12}\selectfont\bfseries}{\thesubsection}{1em}{}
+
+%\titleformat{\subsubsection}[block]{\footnotesize\bfseries}{{ \thesusubsection}}{1em}{}
+\setstretch{1.5}
+%\setlength\parindent{30pt}
+\input{1.Frontpage.tex}
+%\input{2.Innerpage.tex}
+\input{4.Declaration&Certificate.tex}
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\addtocontents{toc}{Contents ~\hfill Page No.\par}
+\addtocontents{toc}{\vspace{\normalbaselineskip}}
+
+\input{3.Acknowledgement.tex}
+\pagenumbering{roman}
+\addcontentsline{toc}{chapter}{\normalfont\normalsize ACKNOWLEDGEMENT}
+
+\newpage
+
+\input{5.Abstract.tex}
+\addcontentsline{toc}{chapter}{\normalfont\normalsize ABSTRACT}
+
+\newpage
+
+\tableofcontents
+ \thispagestyle{empty}
+
+ 
+\newpage
+\listoftables
+\addcontentsline{toc}{chapter}{\normalfont\normalsize LIST OF TABLES}
+\addtocontents{lot}{\protect{\hspace{0.5cm} No. \hspace{3cm} Title \hspace{7.3cm} Page No.\par}}
+
+
+\newpage
+\listoffigures
+\addcontentsline{toc}{chapter}{\normalfont\normalsize LIST OF FIGURES}
+\addtocontents{lof}{\protect{\hspace{0.5cm} No. \hspace{3cm} Title \hspace{7.3cm} Page No.\par}}
+
+
+\let\cleardoublepage\clearpage
+
+\input{list_of_abbreviations.tex}
+\addcontentsline{toc}{chapter}{\normalfont\normalsize ABBREVIATIONS}
+\input{list_of_symbols.tex}
+\addcontentsline{toc}{chapter}{\normalfont\normalsize NOTATIONS}
+
+\input{6.body_of_thesis.tex}
+%\setstretch{2}
+\input{7.References.tex}
+%\input{8.Appendix.tex}
+%\addcontentsline{toc}{chapter}{\normalfont\normalsize APPENDIX}
+%\input{9.Publication.tex}
+%\addcontentsline{toc}{chapter}{\normalfont\normalsize PUBLICATIONS}
+%\addcontentsline{toc}{section}{REFERENCES}
+
+\input{8.Publications.tex}
+\input{9.Appendix.tex}
+
+\end{document}
+

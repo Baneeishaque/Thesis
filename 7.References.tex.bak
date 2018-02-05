@@ -1,0 +1,83 @@
+
+%\chapter*{References}\label{References}
+ %\markboth{References}{}
+% \pagenumbering{gobble} 
+%\addcontentsline{toc}{chapter}{References}
+% \label{page:References}
+\begin{thebibliography}{50}  % 100 is a random guess of the total number of references
+\pagenumbering{gobble}
+%\bibliography{mybib}{}
+%\bibliographystyle{plain}
+\bibitem{one}\textbf{Kaihe Xu, Yuanxiong Guo, Linke Guo, Yuguang Fang } and \textbf{Xiaolin Li},My Privacy My Decision: Control of Photo Sharing on Online Social Networks, \textit{IEE Trans. Dependable and Secure Computing},Vol.14,  Issue: 99, pp.199-210,June 2015.
+%%%%%%%%%%%
+\bibitem{two}\textbf{A.Besmer , H. Richter Lipford }(2012), Moving beyond  untagging:photo privacy in a tagged world , \textit{In proceedings of the SIGCHI Conference on Human Factors in        computing  Systems CHI ’10} ,New York, NY, USA, ACM,1563–1572.
+%%%%%%%%%%%%%%%%
+\bibitem{three}\textbf{ J. Y. Choi, W. De    Neve, K. Plataniotis } and \textbf{Y.M.Ro}Collaborative face recognition for improved face  annotation in personal photo collections shared on online social       networks, \textit{IEEE Trans. Multimedia},Vol.13, Issue :1, pp.14-28, Feb.2011.
+%%%%%%%%%%%%%%
+\bibitem{four}\textbf{Houghton, R}, Named faces: Putting names to faces, \textit{IEEE Trans.Intelligent Systems}, Vol.14,issue:5,pp. 45–50, 1999.
+ %%%%%%%%%%%%%%%%%%%%%5     
+\bibitem{five}\textbf{Anna Cinzia ,Squicciarini}, Privacy Policy Inference of User Uploaded Images on Content Sharing Sites,\textit{ IEEE Trans.Knowledge And Data Engineering}, Vol. 27, no. 1, pp.193-204.Jan.2015.
+%%%%%%%%%%%%%%%%%%%%%%%%%5
+\bibitem{six}\textbf{V.S.KrithikaaVenket, R.Chithra Devi} and  \textbf{P.Sahana}(2015),  Privacy-Preserving of Photo Sharing in a Tagged World, \textit{International Journal of Innovative Research in Computer and Communication Engineering},3, 8224-8230.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\bibitem{seven}\textbf{ A. W. M. Smeulders, M. Worring, S. Santini, A. Gupta}and\textbf{R. Jain} , Content-based image retrieval at the end of the early years,\textit{IEEE Trans. Pattern Analysis and Machine Intelligence}, Vol. 22, no. 12, pp. 1349–1380, Dec.2000.
+%%%%%%%%%%%%%%%%%%%%%%
+\bibitem{eight}\textbf{M. Kokare, B. N. Chatterji}and\textbf{P. K. Biswas} (2000) ,  A survey on current content based image retrieval methods, \textit{IETE} , 48, 261–271.
+%%%%%%%%%%%%%%%%%%%%%%5
+ \bibitem{nine}\textbf{Jose.M.Such , Natalia Criado}, Resolving Multi Party Privacy Conflicts in Social Media, \textit{ IEEE Trans. on Knowledge and  Data  Engineering }, Vol.28, Issue: 7, pp.1851-1863, July 1 2016. 
+%%%%%%%%%%%%%%%%%%%%%%%%%55       
+\bibitem{ten}\textbf{ K. Thomas, C. Grier }and\textbf{ D. M. Nicol} (2010),  Unfriendly: Multi-party privacy risks in social networks,\textit{ Proc. 10th Symposium(international) on Privacy Enhancing Technol},USA,236-252.
+%%%%%%%%%%%%%%%%%%%5
+\bibitem{eleven}\textbf{P.V.N Reddy, K.Satya Prasad }(2011),   Colour and Texture Features for Content Based Image Retrieval,\textit{ International Journal on Computer Application and Technology}, 4,1016-1020.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibitem{twelve}\textbf{Pansur M.A , P.s Malge} (2014) , Image Retrieval Using Modified Haar Wavelet Transform and K Means Clustering , \textit{International Journal of Emerging Technology and Advanced Engineering}, 3, 89-93.
+%%%%%%%%%%%%%%%%%%%%%%
+\bibitem{thirteen}\textbf{Divyalaxmi R. Nampalli}and\textbf{Trupti Dange} (2015) , A Survey Paper on Photo Sharing and Privacy Control Decisions ,\textit{International Journal on Recent and Innovation Trends in Computing and Communication} ,3, 6327-6331.
+%%%%%%%%%%%%%
+\bibitem{fourteen}\textbf{P.Viola and M.Jones} (2001) , Rapid object detection using a boosted cascade of simple features,\textit { IEEE Computer Society Conference on Computer Vision and Pattern Recognition}, 2 ,8-14.
+%%%%%%%%%%%%%%%%%%%%%%555
+
+\bibitem{fifteen}\textbf{M.N.Do , M.Vetterli}, Wavelet-based texture retrieval using generalized Gaussian density and Kullback Leibler distance,\textit{ IEEE Trans. Image Process}, vol. 11, no. 2, pp. 146–158, Feb. 2002.
+%%%%%%%%%%%%%%%%%%%%5
+\bibitem{tthree}\textbf{A. B. Gonde, R. P. Maheshwari} and \textbf{ R. Balasubramanian}(2010) , Content-based image retrieval using colour feature and colour bit planes, \textit{International Journal of Signal and Imaging Systems Engineering}, 3, 105–115.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibitem{tfive}\textbf{ S. D. P.W. Huang} (2003) ,Image retrieval by texture similarity,  \textit {Pattern Recognition},36, 665- 679. 
+%%%%%%%%%%%%%%%%%%%
+\bibitem{tsix}\textbf{Y. C. C.H. Lin, R.T. Chen}  (2009) , A smart content-based image retrieval system based   on color and texture  feature,\textit{ Image Vis. Compute}, 27(6),  658-665.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibitem{thirty}\textbf{Honxin.Hu, Gail-JohnAhn}and\textbf{ Jan Jorgesen}(2011), Detecting and resolving privacy conflicts for collaborative data sharing in online social networks,\textit{ ACSAC’11 Proceeding of the 27th Annual  Computer Security Applications Conference(International)},Florida,USA,103-112.
+
+
+%%%%%%%%%%%% 
+%\bibitem{tone}\textbf{M. Kokare, B. N. Chatterji }and\textbf{ P. K. Biswas}(2002) ,  A survey on current content based image retrieval methods, \textit{IETE Journal of Research},48, 261–271.
+%%%%%%%%%%%%%%%%%%%55
+%\bibitem{tfour}\textbf{M. Subrahmanyam, R. P. Maheshwari} and\textbf{ R. Balasubramanian}(2011) , A correlogram algorithm for image indexing and retrieval using wavelet and rotated wavelet filters, \textit{International Journal of Signal and Imaging Systems Engineering},  4,  27–34 .
+%%%%%%%%%%%%%%%%%%%%%
+%\bibitem{tseven}\textbf{K.-K. M., Ju Han}(2007) , notation-invariant and scale-invariant gabor features for texture       image retrieval, \textit{Image and Vision Computing}, 25, 1474-1481.
+
+%\bibitem{teight}\textbf{ B. C. M. Kokare,  P.K. Biswas}(2007) , Texture image retrieval  using rotated wavelet  filters,  \textit{Pattern Recognition} ,  28,  1240-1249.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\bibitem{tnine}\textbf{ Apostolos Marakakis, Nikolaos Galatsanos, Aristidis Likas}and\textbf{ AndreasStafylopatis }, Relevance Feedback for Content Based Image Retrieval using Support Vector Machine and Feature Selection- Part 1, \textit{Springer}, p.942-951, 2009.
+
+%\bibitem{twelve}\textbf{Reshma Chaudary, A.M Patil }(2012),  Content Based Image Retrieval Using Color and Shape Features,\textit{ International Journal of Advanced Research in Electrical, Electronics And Instrumentation Engineering}, 1, 386-392.
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\bibitem{thirteen}\textbf{T.Prathiba  , G. Soniah Darathi} (2013),  An Efficient Content Based Image Retrieval Using Local Tetra Pattern , \textit{IJAREEIE}, 2,5040-5046.
+%%%%%%%%%%%%%%%%%%
+%\bibitem{fourteen}\textbf{Sumiti Bansal , Er. Rishamjot Kaur }(2014) ,  A Review on Content Based Image Retrieval using SVM\textit, {International Journal of Advanced R   esearch in Computer Science and Software Engineering},7, 232-235.
+%%%%%%%%%%%%%%%%%%%%%%%%
+%\bibitem{fifteen}\textbf{ K. Ashok Kumar ,Y.V.Bhaskar Reddy} (2012),  Content Based Image Retrieval using SVM Algorithm,\textit{ International Journal of Electrical and Electronics Engineering},3, 38-41.
+%%%%%%%%%%%%%%%%%%%%
+%\bibitem{sixteen}\textbf{Nishant Singh, Shiv Ram Dubey, Pushkar Dixit}and\textbf{ Jay Prakash Gupta} (2012),Semantic Image Retrieval by Combining Color, Texture and Shape Features,\textit{International Conference on Computing Sciences},3,116-120.
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\bibitem{seventeen}\textbf{Ella Yildizer, Ali Metin Balci, Mohammad Hassan}and\txtbf{ Reda Alhajj }(2012) ,  Content Based Image Retrieval using Multiple Support Vector Machine Ensemble,\textit{Journal on Expert Systems with Applications},3, 2385-2396.
+
+
+\end{thebibliography}
+
+
+

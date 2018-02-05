@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.2)  5 FEB 2018 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.2)  5 FEB 2018 14:53
 entering extended mode
-**"E:/Seminar 2018/lastadjust/0.Thesis.tex"
-("E:/Seminar 2018/lastadjust/0.Thesis.tex"
+**"E:/Seminar 2018/ro/0.Thesis.tex"
+("E:/Seminar 2018/ro/0.Thesis.tex"
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
@@ -491,30 +491,30 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing
  out. on input line 1147.
 
-) ("E:/Seminar 2018/lastadjust\0.Thesis.aux")
+) ("E:/Seminar 2018/ro\0.Thesis.aux")
 \openout1 = `0.Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 57.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 93.
+Package hyperref Info: Link coloring OFF on input line 57.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -524,12 +524,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
 
-("E:/Seminar 2018/lastadjust\0.Thesis.out")
-("E:/Seminar 2018/lastadjust\0.Thesis.out")
+("E:/Seminar 2018/ro\0.Thesis.out") ("E:/Seminar 2018/ro\0.Thesis.out")
 \@outlinefile=\write4
 \openout4 = `0.Thesis.out'.
 
@@ -568,15 +567,15 @@ G,.JBIG2,.JB2,.eps]
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(106.69783pt, 405.45178pt, 85.35826pt)
-* v-part:(T,H,B)=(71.13188pt, 688.5567pt, 85.35826pt)
+* h-part:(L,W,R)=(108.40492pt, 416.83315pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=405.45178pt
-* \textheight=688.5567pt
-* \oddsidemargin=34.42784pt
-* \evensidemargin=34.42784pt
-* \topmargin=-38.1381pt
+* \textwidth=416.83315pt
+* \textheight=700.50723pt
+* \oddsidemargin=36.13493pt
+* \evensidemargin=36.13493pt
+* \topmargin=-37.00018pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -621,998 +620,51 @@ LaTeX Info: Redefining \selectfont on input line 126.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-("E:/Seminar 2018/lastadjust\1.Frontpage.tex"
+ ("E:/Seminar 2018/ro\1.Frontpage.tex"
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
-<co.png, id=129, 83.31125pt x 79.29625pt>
-File: co.png Graphic file (type png)
-<use co.png>
-Package pdftex.def Info: co.png  used on input line 47. on input line 47.
-Package pdftex.def Info: Requested size: 108.405pt x 103.18793pt on input line 
-47.
- [0
-
-{C:/Users/Nabeel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <E:/Seminar
- 2018/lastadjust/co.png>])
-("E:/Seminar 2018/lastadjust\4.Declaration&Certificate.tex"
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 
-Overfull \hbox (83.3753pt too wide) in paragraph at lines 27--47
-[]  [] 
- []
-
-[1]
-File: co.png Graphic file (type png)
-<use co.png>
-Package pdftex.def Info: co.png  used on input line 66. on input line 66.
-Package pdftex.def Info: Requested size: 108.405pt x 103.18793pt on input line 
-66.
-
-Overfull \hbox (144.18443pt too wide) in paragraph at lines 81--94
-[]  [] 
- []
-
-
-Overfull \hbox (144.18443pt too wide) in paragraph at lines 95--113
-[]  [] 
- []
-
-
-Overfull \hbox (83.36914pt too wide) in paragraph at lines 115--131
-[]  [] 
- []
-
-) ("E:/Seminar 2018/lastadjust\3.Acknowledgement.tex"pdfTeX warning (ext4): des
-tination with the same identifier (name{page.}) has been already used, duplicat
-e ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            *{ACKNOWLEDGEMENT} [0]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.127 \newpage
-               [1
-
-] ("E:/Seminar 2018/lastadjust\5.Abstract.tex"
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-) [2
-
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
-
-("E:/Seminar 2018/lastadjust\0.Thesis.toc"
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 5.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 5.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 5.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 5.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-
-Overfull \hbox (27.88477pt too wide) in paragraph at lines 27--27
- [][] [][]\OT1/ptm/m/n/12 CONTEXT-BASED DI-VER-SI-FI-CA-TION FOR KEY-WORD QUERI
-ES 
- []
-
-[3])
-\tf@toc=\write5
-\openout5 = `0.Thesis.toc'.
-
- [4] ("E:/Seminar 2018/lastadjust\0.Thesis.lot")
-\tf@lot=\write6
-\openout6 = `0.Thesis.lot'.
-
- [5]
-("E:/Seminar 2018/lastadjust\0.Thesis.lof")
-\tf@lof=\write7
-\openout7 = `0.Thesis.lof'.
-
-
-("E:/Seminar 2018/lastadjust\list_of_abbreviations.tex" [6])
-("E:/Seminar 2018/lastadjust\list_of_symbols.tex" [7
-
-])
-("E:/Seminar 2018/lastadjust\6.body_of_thesis.tex" [8
-
-]
-Chapter 1.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-[1
-
-]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-<fb.jpg, id=233, 532.23843pt x 333.49594pt>
-File: fb.jpg Graphic file (type jpg)
-<use fb.jpg>
-Package pdftex.def Info: fb.jpg  used on input line 28. on input line 28.
-Package pdftex.def Info: Requested size: 372.56435pt x 233.44556pt on input lin
-e 28.
- [2] [3pdfTeX warning (ext4): destination with the same identifier (name{figure
-.1.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.35 
-      <E:/Seminar 2018/lastadjust/fb.jpg>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [4] [5]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [6] [7]
-Chapter 2.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-[8
-
-]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [9] [10]
-<haar.png, id=273, 352.31625pt x 304.88907pt>
-File: haar.png Graphic file (type png)
-<use haar.png>
-Package pdftex.def Info: haar.png  used on input line 146. on input line 146.
-Package pdftex.def Info: Requested size: 281.85338pt x 243.91158pt on input lin
-e 146.
-
-Overfull \hbox (4.4514pt too wide) in paragraph at lines 142--149
-\OT1/ptm/m/n/12 Haar cas-cade clas-si-fier is trained with a lot of face im-age
-s and non face im-ages.Initially
- []
-
-[11pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.149 \end{figure}
-                  ] [12pdfTeX warning (ext4): destination with the same identif
-ier (name{figure.2.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.157 ...ECTIONS SHARED ON ONLINE SOCIAL NETWORKS}
-                                                   <E:/Seminar 2018/lastadjust/
-haar.png>]
-Overfull \hbox (1.07217pt too wide) in paragraph at lines 157--157
-\OT1/ptm/b/n/14 TION IN PER-SONAL PHOTO COL-LEC-TIONS SHARED ON
- []
-
-[13]
-Overfull \hbox (9.7246pt too wide) in paragraph at lines 164--164
-|[]\OT1/ptm/b/n/14 COLOR AND TEX-TURE FEA-TURES FOR CON-TENT BASED
- []
-
-[14]
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no É in font ptmr7t!
- [15]
-Overfull \hbox (11.48814pt too wide) in paragraph at lines 211--211
-|[]\OT1/ptm/b/n/14 CBIR BASED IM-AGE RE-TRIEVAL US-ING MOD-I-FIED HAAR
- []
-
-[16] [17]
-<e.jpg, id=327, 426.09187pt x 287.57437pt>
-File: e.jpg Graphic file (type jpg)
-<use e.jpg>
-Package pdftex.def Info: e.jpg  used on input line 230. on input line 230.
-Package pdftex.def Info: Requested size: 405.45178pt x 273.65923pt on input lin
-e 230.
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 241.
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
-
- []
-
-[18
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.258 \clearpage
-                 <E:/Seminar 2018/lastadjust/e.jpg>] [19
-
-] [20]
-<cbir.png, id=344, 459.96844pt x 316.18124pt>
-File: cbir.png Graphic file (type png)
-<use cbir.png>
-Package pdftex.def Info: cbir.png  used on input line 294. on input line 294.
-Package pdftex.def Info: Requested size: 275.98318pt x 189.7102pt on input line
- 294.
- [21] [22pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.2.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.317 \clearpage
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{table.2.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.317 \clearpage
-                 <E:/Seminar 2018/lastadjust/cbir.png>]
-Chapter 3.
-[23
-
-
-]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [24]
-Chapter 4.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-[25
-
-
-]
-<p.jpg, id=369, 447.17062pt x 295.85532pt>
-File: p.jpg Graphic file (type jpg)
-<use p.jpg>
-Package pdftex.def Info: p.jpg  used on input line 351. on input line 351.
-Package pdftex.def Info: Requested size: 405.45178pt x 268.25815pt on input lin
-e 351.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.368 \subsection[Training]{Training}
-                                      <E:/Seminar 2018/lastadjust/p.jpg>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-
-[27] [28]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [29]
-Underfull \hbox (badness 10000) in paragraph at lines 451--453
-
- []
-
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-[30] [31] [32]
-<flowgraph.png, id=424, 467.49657pt x 352.31625pt>
-File: flowgraph.png Graphic file (type png)
-<use flowgraph.png>
-Package pdftex.def Info: flowgraph.png  used on input line 494. on input line 4
-94.
-Package pdftex.def Info: Requested size: 405.45178pt x 305.57187pt on input lin
-e 494.
-
-Overfull \hbox (14.43706pt too wide) in paragraph at lines 502--503
-\OT1/ptm/m/n/12 The flow graph shown in fig-ure 4.2 shows the en-tire flow of p
-ro-posed sys-tem clearly.Start
- []
-
-[33
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.503 \clearpage
-                 <E:/Seminar 2018/lastadjust/flowgraph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 509--511
-
- []
-
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-[34
-
-]
-<au.png, id=439, 356.0803pt x 147.55125pt>
-File: au.png Graphic file (type png)
-<use au.png>
-Package pdftex.def Info: au.png  used on input line 542. on input line 542.
-Package pdftex.def Info: Requested size: 284.86462pt x 118.04114pt on input lin
-e 542.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-<uu.png, id=440, 460.72125pt x 282.30469pt>
-File: uu.png Graphic file (type png)
-<use uu.png>
-Package pdftex.def Info: uu.png  used on input line 550. on input line 550.
-Package pdftex.def Info: Requested size: 368.5775pt x 225.84404pt on input line
- 550.
- [35
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.553 \end{figure}
-                   <E:/Seminar 2018/lastadjust/au.png>]
-<ndfd0.png, id=449, 360.59718pt x 294.34969pt>
-File: ndfd0.png Graphic file (type png)
-<use ndfd0.png>
-Package pdftex.def Info: ndfd0.png  used on input line 561. on input line 561.
-Package pdftex.def Info: Requested size: 360.5963pt x 294.34895pt on input line
- 561.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.566 
-       <E:/Seminar 2018/lastadjust/uu.png>]
-<ndfd1.png, id=457, 499.11469pt x 167.87718pt>
-File: ndfd1.png Graphic file (type png)
-<use ndfd1.png>
-Package pdftex.def Info: ndfd1.png  used on input line 570. on input line 570.
-Package pdftex.def Info: Requested size: 405.45178pt x 136.37682pt on input lin
-e 570.
-<ndfd2.png, id=458, 566.115pt x 239.39438pt>
-File: ndfd2.png Graphic file (type png)
-<use ndfd2.png>
-Package pdftex.def Info: ndfd2.png  used on input line 581. on input line 581.
-Package pdftex.def Info: Requested size: 405.45178pt x 171.4579pt on input line
- 581.
-<nndfd2.png, id=459, 586.44093pt x 350.05782pt>
-File: nndfd2.png Graphic file (type png)
-<use nndfd2.png>
-Package pdftex.def Info: nndfd2.png  used on input line 592. on input line 592.
-
-Package pdftex.def Info: Requested size: 405.45178pt x 242.02087pt on input lin
-e 592.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.598 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.4.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.598 \end{figure}
-                   <E:/Seminar 2018/lastadjust/ndfd0.png> <E:/Seminar 2018/last
-adjust/ndfd1.png>]
-<ndfd4.png, id=468, 590.95781pt x 351.56343pt>
-File: ndfd4.png Graphic file (type png)
-<use ndfd4.png>
-Package pdftex.def Info: ndfd4.png  used on input line 603. on input line 603.
-Package pdftex.def Info: Requested size: 405.45178pt x 241.21109pt on input lin
-e 603.
-<nndfd5.png, id=469, 588.69937pt x 391.4625pt>
-File: nndfd5.png Graphic file (type png)
-<use nndfd5.png>
-Package pdftex.def Info: nndfd5.png  used on input line 614. on input line 614.
-
-Package pdftex.def Info: Requested size: 405.45178pt x 269.61363pt on input lin
-e 614.
- [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.620 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.4.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.620 \end{figure}
-                   <E:/Seminar 2018/lastadjust/ndfd2.png> <E:/Seminar 2018/last
-adjust/nndfd2.png>] [39pdfTeX warning (ext4): destination with the same identif
-ier (name{figure.4.9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.621 \clearpage
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.4.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.621 \clearpage
-                 <E:/Seminar 2018/lastadjust/ndfd4.png> <E:/Seminar 2018/lastad
-just/nndfd5.png>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-<tb1.png, id=487, 487.8225pt x 63.98906pt>
-File: tb1.png Graphic file (type png)
-<use tb1.png>
-Package pdftex.def Info: tb1.png  used on input line 636. on input line 636.
-Package pdftex.def Info: Requested size: 405.45178pt x 53.18509pt on input line
- 636.
-<tb2.png, id=488, 478.78876pt x 53.44969pt>
-File: tb2.png Graphic file (type png)
-<use tb2.png>
-Package pdftex.def Info: tb2.png  used on input line 650. on input line 650.
-Package pdftex.def Info: Requested size: 405.45178pt x 45.26279pt on input line
- 650.
- [40
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.659 T
-       he database table" friend request" is shown in figure 4.13 is used wh...
- <E:/Seminar 2018/lastadjust/tb1.png>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-<tb3.png, id=496, 473.51906pt x 39.89906pt>
-File: tb3.png Graphic file (type png)
-<use tb3.png>
-Package pdftex.def Info: tb3.png  used on input line 664. on input line 664.
-Package pdftex.def Info: Requested size: 405.45178pt x 34.16455pt on input line
- 664.
-<tbl5.png, id=497, 479.54156pt x 45.92157pt>
-File: tbl5.png Graphic file (type png)
-<use tbl5.png>
-Package pdftex.def Info: tbl5.png  used on input line 678. on input line 678.
-Package pdftex.def Info: Requested size: 405.45178pt x 38.8268pt on input line 
-678.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-<tbl7.png, id=498, 496.10344pt x 80.55093pt>
-File: tbl7.png Graphic file (type png)
-<use tbl7.png>
-Package pdftex.def Info: tbl7.png  used on input line 692. on input line 692.
-Package pdftex.def Info: Requested size: 405.45178pt x 65.83217pt on input line
- 692.
- [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.698 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.4.13}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.698 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.4.14}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.698 \end{figure}
-                   <E:/Seminar 2018/lastadjust/tb2.png> <E:/Seminar 2018/lastad
-just/tb3.png> <E:/Seminar 2018/lastadjust/tbl5.png>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-<tbl8.png, id=509, 479.54156pt x 51.19125pt>
-File: tbl8.png Graphic file (type png)
-<use tbl8.png>
-Package pdftex.def Info: tbl8.png  used on input line 707. on input line 707.
-Package pdftex.def Info: Requested size: 405.45178pt x 43.28232pt on input line
- 707.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-15}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.715 \clearpage
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.4.16}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.715 \clearpage
-                 <E:/Seminar 2018/lastadjust/tbl7.png> <E:/Seminar 2018/lastadj
-ust/tbl8.png>]
-Chapter 5.
-[43
-
-
-] [44
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
-as been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.797 \chapter
-              [RESULT AND DISCUSSION]{\fontsize{16}{12}\selectfont RESULT AN...
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) h
-as been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.797 \chapter
-              [RESULT AND DISCUSSION]{\fontsize{16}{12}\selectfont RESULT AN...
-]
-Chapter 6.
-[45
-
-]
-<rej.png, id=544, 770.88pt x 453.19313pt>
-File: rej.png Graphic file (type png)
-<use rej.png>
-Package pdftex.def Info: rej.png  used on input line 815. on input line 815.
-Package pdftex.def Info: Requested size: 405.45178pt x 238.35869pt on input lin
-e 815.
- [46
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.824  \clearpage
-                  <E:/Seminar 2018/lastadjust/rej.png>]
-<1.png, id=552, 770.88pt x 461.47406pt>
-File: 1.png Graphic file (type png)
-<use 1.png>
-Package pdftex.def Info: 1.png  used on input line 833. on input line 833.
-Package pdftex.def Info: Requested size: 405.45178pt x 242.71407pt on input lin
-e 833.
- [47
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.842  \clearpage
-                  <E:/Seminar 2018/lastadjust/1.png>]
-<training2.png, id=560, 770.88pt x 531.48563pt>
-File: training2.png Graphic file (type png)
-<use training2.png>
-Package pdftex.def Info: training2.png  used on input line 851. on input line 8
-51.
-Package pdftex.def Info: Requested size: 405.45178pt x 279.53694pt on input lin
-e 851.
- [48
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.861 \clearpage
-                 <E:/Seminar 2018/lastadjust/training2.png>]
-<admintrain.png, id=568, 770.88pt x 470.50781pt>
-File: admintrain.png Graphic file (type png)
-<use admintrain.png>
-Package pdftex.def Info: admintrain.png  used on input line 871. on input line 
-871.
-Package pdftex.def Info: Requested size: 405.45178pt x 247.46541pt on input lin
-e 871.
- [49
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.879 \clearpage
-                 <E:/Seminar 2018/lastadjust/admintrain.png>]
-<sherininvitefriends.png, id=576, 770.88pt x 515.67656pt>
-File: sherininvitefriends.png Graphic file (type png)
-<use sherininvitefriends.png>
-Package pdftex.def Info: sherininvitefriends.png  used on input line 891. on in
-put line 891.
-Package pdftex.def Info: Requested size: 405.45178pt x 271.22209pt on input lin
-e 891.
- [50
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.898 \clearpage
-                 <E:/Seminar 2018/lastadjust/sherininvitefriends.png>]
-<pendingrequest.png, id=585, 770.88pt x 494.59781pt>
-File: pendingrequest.png Graphic file (type png)
-<use pendingrequest.png>
-Package pdftex.def Info: pendingrequest.png  used on input line 909. on input l
-ine 909.
-Package pdftex.def Info: Requested size: 405.45178pt x 260.13564pt on input lin
-e 909.
- [51
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.918 \clearpage
-                 <E:/Seminar 2018/lastadjust/pendingrequest.png>]
-<sherinsfriend.png, id=593, 770.88pt x 498.36188pt>
-File: sherinsfriend.png Graphic file (type png)
-<use sherinsfriend.png>
-Package pdftex.def Info: sherinsfriend.png  used on input line 929. on input li
-ne 929.
-Package pdftex.def Info: Requested size: 405.45178pt x 262.11537pt on input lin
-e 929.
- [52
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.936 \clearpage
-                 <E:/Seminar 2018/lastadjust/sherinsfriend.png>]
-<post.png, id=601, 770.88pt x 485.56406pt>
-File: post.png Graphic file (type png)
-<use post.png>
-Package pdftex.def Info: post.png  used on input line 946. on input line 946.
-Package pdftex.def Info: Requested size: 405.45178pt x 255.38431pt on input lin
-e 946.
- [53
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.953 \clearpage
-                 <E:/Seminar 2018/lastadjust/post.png>]
-<sherinnew.png, id=609, 770.88pt x 502.87875pt>
-File: sherinnew.png Graphic file (type png)
-<use sherinnew.png>
-Package pdftex.def Info: sherinnew.png  used on input line 963. on input line 9
-63.
-Package pdftex.def Info: Requested size: 405.45178pt x 264.49104pt on input lin
-e 963.
- [54
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.970 \clearpage
-                 <E:/Seminar 2018/lastadjust/sherinnew.png>]
-<photoposted.png, id=617, 770.88pt x 494.59781pt>
-File: photoposted.png Graphic file (type png)
-<use photoposted.png>
-Package pdftex.def Info: photoposted.png  used on input line 980. on input line
- 980.
-Package pdftex.def Info: Requested size: 405.45178pt x 260.13564pt on input lin
-e 980.
- [55
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.10})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.987 \clearpage
-                 <E:/Seminar 2018/lastadjust/photoposted.png>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [56
-
-]
-<newperfomance.png, id=631, 770.88pt x 511.9125pt>
-File: newperfomance.png Graphic file (type png)
-<use newperfomance.png>
-Package pdftex.def Info: newperfomance.png  used on input line 1011. on input l
-ine 1011.
-Package pdftex.def Info: Requested size: 405.45178pt x 269.24239pt on input lin
-e 1011.
- [57
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.11})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1037 \clearpage
-                  <E:/Seminar 2018/lastadjust/newperfomance.png>] [58pdfTeX war
-ning (ext4): destination with the same identifier (name{table.6.1}) has been al
-ready used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1037 \clearpage
-                 ]
-Chapter 7.
-[59
-
-
-
-]) ("E:/Seminar 2018/lastadjust\7.References.tex"
-Missing character: There is no ‚ in font ptmri7t!
-Missing character: There is no Ä in font ptmri7t!
-Missing character: There is no ô in font ptmri7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-
-Underfull \hbox (badness 7238) in paragraph at lines 21--23
-[]\OT1/ptm/b/n/12 V.S.KrithikaaVenket, R.Chithra Devi \OT1/ptm/m/n/12 and \OT1/
-ptm/b/n/12 P.Sahana\OT1/ptm/m/n/12 (2015), Privacy-
- []
-
-[60
-
-]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
- [61]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-Missing character: There is no ‚ in font ptmri7t!
-Missing character: There is no Ä in font ptmri7t!
-Missing character: There is no ô in font ptmri7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
- [62]
-Underfull \hbox (badness 1953) in paragraph at lines 65--66
-[] \OT1/ptm/b/n/12 Apos-to-los Marakakis, Niko-laos Galat-sanos, Aris-tidis Lik
-as\OT1/ptm/m/n/12 and \OT1/ptm/b/n/12 An-
- []
-
-) ("E:/Seminar 2018/lastadjust\9.Appendix.tex" [63]
-! Missing number, treated as zero.
-<to be read again> 
-                   A
-l.1 \chapter*{\fontsize{16}AAPPENDIX}
-                                     \label{appendix}
+! Use of \@icentercr doesn't match its definition.
+<argument> \def 
+                
+l.43 ...case{IN\\COMPUTER SCIENCE AND ENGINEERING}
+                                                  \\
 ? r
 OK, entering \nonstopmode...
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   A
-l.1 \chapter*{\fontsize{16}AAPPENDIX}
-                                     \label{appendix}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   A
-l.8 \section*{\fontsize{14}AAPPENDIX-A}
-                                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   A
-l.8 \section*{\fontsize{14}AAPPENDIX-A}
-                                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[64
-
-] [65]
-Missing character: There is no Ô in font ptmr7t!
-Missing character: There is no ø in font ptmr7t!
-Missing character: There is no Ω in font ptmr7t!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
- [66]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
- (0.Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+! Incomplete \iffalse; all text was ignored after line 43.
+<inserted text> 
+                \fi 
+l.71 	\input{1.Frontpage.tex}
+                             
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
 
+)
+! Incomplete \iffalse; all text was ignored after line 43.
+<inserted text> 
+                \fi 
+<*> "E:/Seminar 2018/ro/0.Thesis.tex"
+                                     
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
 
-Package rerunfilecheck Warning: File `0.Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+! Emergency stop.
+<*> "E:/Seminar 2018/ro/0.Thesis.tex"
+                                     
+*** (job aborted, no legal \end found)
 
-Package rerunfilecheck Info: Checksums for `0.Thesis.out':
-(rerunfilecheck)             Before: DA5170CBB5E282F7CC9C13B6473E3419;2185
-(rerunfilecheck)             After:  E19B73BEAB3122E95057861D112A63C3;4391.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 9812 strings out of 493312
- 142060 string characters out of 3138897
- 233648 words of memory out of 3000000
- 12865 multiletter control sequences out of 15000+200000
- 41226 words of font info for 89 fonts, out of 3000000 for 9000
+ 9199 strings out of 493312
+ 133919 string characters out of 3138897
+ 228665 words of memory out of 3000000
+ 12590 multiletter control sequences out of 15000+200000
+ 6538 words of font info for 20 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,43p,1926b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.3.3} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.2} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.1} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usy
-r.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on 0.Thesis.pdf (77 pages, 7110855 bytes).
-PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 250 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 36i,1n,43p,603b,145s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -3,7 +3,7 @@
 \usepackage{amsmath, amssymb}
 \usepackage[breaklinks=true]{hyperref}
 \usepackage{graphicx}
-\usepackage[left=3.75cm,right=3cm,top=2.5cm,bottom=3cm]{geometry}
+\usepackage[left=3.81cm,right=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{float}
 \usepackage{romannum}
@@ -25,48 +25,50 @@
 \usepackage[nottoc,notlof,notlot]{tocbibind}
 \usepackage[subfigure]{tocloft}
 
-	\date{}
-	\author{NameOfAuthor}
-	\setcounter{secnumdepth}{3}
-	\setcounter{tocdepth}{3}
+\date{}
+\author{Banee Ishaque K}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
 	
-	\renewcommand\cftchappresnum{Chapter  }
-	\renewcommand{\cftchapaftersnum}{.}
+\renewcommand\cftchappresnum{Chapter  }
+\renewcommand{\cftchapaftersnum}{.}
 
-  	\cftsetindents{chapter}{0em}{5em}      % set amount of indenting
-  	\cftsetindents{section}{5em}{2em}
-  	\cftsetindents{subsection}{7em}{3em}
+\cftsetindents{chapter}{0em}{5em}      % set amount of indenting
+\cftsetindents{section}{5em}{2em}
+\cftsetindents{subsection}{7em}{3em}
   	
-	\addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0pt}}
+\addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0pt}}
   	
-	\renewcommand\cftchapfont{\mdseries}
-	\renewcommand\cftchappagefont{\mdseries}
-	\renewcommand{\contentsname}{\hfill\bfseries\Large CONTENTS\hfill}   
-	\renewcommand{\cftaftertoctitle}{\hfill}
-	\renewcommand\listfigurename{\hfill\bfseries\Large LIST OF FIGURES\hfill}
-	\renewcommand\listtablename{\hfill\bfseries\Large LIST OF TABLES\hfill}
-	\renewcommand{\bibname}{REFERENCES}
+\renewcommand\cftchapfont{\mdseries}
+\renewcommand\cftchappagefont{\mdseries}
+\renewcommand{\contentsname}{\hfill\bfseries\Large CONTENTS\hfill}   
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand\listfigurename{\hfill\bfseries\Large LIST OF FIGURES\hfill}
+\renewcommand\listfigurename{\hfill\bfseries\Large LIST OF CHARTS\hfill}
+\renewcommand\listtablename{\hfill\bfseries\Large LIST OF TABLES\hfill}
+\renewcommand\listtablename{\hfill\bfseries\Large LIST OF APPENDICES\hfill}
+\renewcommand{\bibname}{REFERENCES}
 	
-	\newenvironment{acknowledgement}%       New acknowledgement environment
-    		{\large\bfseries Acknowledgement%
-    		\par\medskip\normalfont\normalsize}%
-    	{}%
+\newenvironment{acknowledgement}%       New acknowledgement environment
+	{\large\bfseries Acknowledgement%
+	\par\medskip\normalfont\normalsize}%
+{}%
 
-	\begin{document}
+\begin{document}
 
-		\titleformat{\chapter}[display]
-		{\centering \Large\bfseries}
-		{\MakeUppercase{\chaptertitlename}\ \thechapter}{16pt}{\Large\bfseries}
+	\titleformat{\chapter}[display]
+	{\centering \Large\bfseries}
+	{\MakeUppercase{\chaptertitlename}\ \thechapter}{16pt}{\Large\bfseries}
 
-		\titleformat{\section}
-  		{\normalfont\fontsize{14}{12}\selectfont\bfseries}{\thesection}{1em}{}
+	\titleformat{\section}
+  	{\normalfont\fontsize{14}{12}\selectfont\bfseries}{\thesection}{1em}{}
 
-		\titleformat{\subsection}
-  		{\normalfont\fontsize{12}{12}\selectfont\bfseries}{\thesubsection}{1em}{}
+	\titleformat{\subsection}
+  	{\normalfont\fontsize{12}{12}\selectfont\bfseries}{\thesubsection}{1em}{}
 
-		\setstretch{1.5}
+	\setstretch{1.5}
 		
-		\input{1.Frontpage.tex}
+	\input{1.Frontpage.tex}
 		%\input{4.Declaration&Certificate.tex}
 
 		\addtocontents{toc}{\protect\thispagestyle{empty}}

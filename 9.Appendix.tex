@@ -1,0 +1,92 @@
+\chapter*{\fontsize{16}AAPPENDIX}\label{appendix}
+%\pagenumbering{gobble}
+%\chapter*{\fontsize{16}LLIST OF PUBLICATIONS}\label{publications}
+  \markboth{List of Publications}{}
+  \addcontentsline{toc}{chapter}{APPENDIX}
+ % \label{page:publications}
+%\begin{publications}
+\section*{\fontsize{14}AAPPENDIX-A}
+%\section[APPENDIX-A]{\fontsize{14}{12}\selectfont \MakeUppercase{APPENDIX-A}}
+\nointent
+To understand how wavelets work, let us start with a simple example. Assume we have a 1D image with a resolution of four pixels, having values  [8 10 6 4] . Haar wavelet basis can be used to represent this image by computing a wavelet transform.Consider the pairs of pixels (8; 10) and (6; 4), take the average of each pair,  9 and 5, and then record this in the next line. Then record the difference of the averages from the first value of the pair. This process is then applied to this new string resulting in the line, where the differences are just carried down. The values are shown  : 
+[8 10 6 4]
+
+[9 5 -1 1] 
+
+[7 2 -1 1] 
+
+\nointent
+The differences recorded to the right hand side are known as the detail coefficients. Thus, the original image is decomposed into a lower resolution (two-pixel) version and a pair of detail coefficients. The recursive process of averaging and differencing is called a filter bank. The original image can be reconstructed by recursively adding and subtracting the detail coefficients from the lower resolution versions.
+\nointent
+For 2D Haar Transform [6] the procedure remains the same. For example, apply 2D HT to the following finite 2D signal.
+\[
+  I=
+  \left[ {\begin{array}{cccc}
+  1 & 2 & 2& 3\\
+  5 & 6 & 4 & 1\\
+  3 & 9 & 6 & 2\\
+  2 & 8 & 1 & 2
+  \end{array} } \right]
+\]
+\nointent
+Using 1D HT along first row, the approximation coefficients are: 
+\[ \frac{1}{\sqrt{2}}\left( 1 + 2\right) and \frac{1}{\sqrt{2}}\left( 2 + 3\right)\]
+\nointent
+
+And the detail coefficient are: 
+\[ \frac{1}{\sqrt{2}}\left( 1 - 2\right) and \frac{1}{\sqrt{2}}\left( 2 - 3\right)\]
+\nointent
+The same transform is applied to the other rows of I. By arranging the approximation parts of each row transform in the first two columns and the corresponding detail parts in the last two columns we get the following results: 
+
+
+\[
+  \frac{1}{\sqrt{2}}
+  \left[ {\begin{array}{cccc}
+  3 & 5: & -1 & -1\\
+  11 & 5: & -1 & 3\\
+  12 & 8: & -6 & 4\\
+  10 & 3: & -6 & -1
+  \end{array} } \right]
+\]
+
+
+\[
+  \frac{1}{\sqrt{2}}
+  \left[ {\begin{array}{cccc}
+  14 & 10: & -2 & 2\\
+  12 & 11: & -12 & 3\\
+  ... & ... & ... & ...\\
+  -8 & 0: & 0 & -4\\
+  2 & 5: & 0 & 5
+  \end{array} } \right]
+\]
+\nointent
+Thus we have
+
+\[
+  A=
+  \left[ {\begin{array}{cc}
+  14 & 10 \\
+  22 & 11
+\end{array} } \right],  V=
+  \left[ {\begin{array}{cc}
+  -2 & 2 \\
+  -12 & 3
+\end{array} } \right],  H=
+  \left[ {\begin{array}{cc}
+  -8 & 0 \\
+  2 & 5
+\end{array} } \right], \text{and}\\  D=
+  \left[ {\begin{array}{cc}
+  0 & -4 \\
+  0 & 5
+\end{array} } \right]
+\]
+
+
+\nointent
+Each piece shown in example has a dimension (number of rows/2) × (number of columns/2) and is called A, H, V and D respectively. A (approximation area) includes information about the global properties of analyzed image. Removal of spectral coefficients from this area leads to the biggest distortion in original image. H (horizontal area) includes information about the vertical lines hidden in image. Removal of spectral coefficients from this area excludes horizontal details from original image. V (vertical area) contains information about the horizontal lines hidden in image. Removal of spectral coefficients from this area eliminates vertical details from original image. D (diagonal area) embraces information about the diagonal details hidden in image. Removal of spectral coefficients from this area leads to minimum distortions in original image. 
+
+
+
+%\end{publications}

@@ -1,0 +1,32 @@
+\BOOKMARK [0][-]{chapter*.1}{ACKNOWLEDGEMENT}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{ABSTRACT}{}% 2
+\BOOKMARK [0][-]{chapter*.2}{LIST OF TABLES}{}% 3
+\BOOKMARK [0][-]{chapter*.2}{LIST OF FIGURES}{}% 4
+\BOOKMARK [0][-]{chapter*.3}{ABBREVIATIONS}{}% 5
+\BOOKMARK [0][-]{chapter*.4}{NOTATIONS}{}% 6
+\BOOKMARK [0][-]{chapter.1}{INTRODUCTION}{}% 7
+\BOOKMARK [1][-]{section.1.1}{General Background}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.1}{XML}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.2}{SLCA}{section.1.1}% 10
+\BOOKMARK [1][-]{section.1.2}{Objective}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.3}{Scheme}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{LITERATURE SURVEY}{}% 13
+\BOOKMARK [1][-]{section.2.1}{Structured Search Result Differentiation}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.2}{Processing XML Keyword Search by Constructing Effective Structured Search Queries}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.3}{DivQ: Diversification for Keyword Search Over Structured Database}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.4}{On Query Result Diversification}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.4.1}{GMC Method}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.2}{GNE Method}{section.2.4}% 19
+\BOOKMARK [1][-]{section.2.5}{Observation And Analysis}{chapter.2}% 20
+\BOOKMARK [0][-]{chapter.3}{CONTEXT-BASED DIVERSIFICATION FOR KEYWORD QUERIES OVER XML DATA}{}% 21
+\BOOKMARK [1][-]{section.3.1}{Feature Selection Model}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{Keyword Search Diversification Model}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Evaluating the Relevance}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Evaluating the Novelty}{section.3.2}% 25
+\BOOKMARK [1][-]{section.3.3}{Keyword Search Diversification Approaches}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.4}{Anchor-Based Pruning Algorithm}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.4.1}{Advantages of Anchor-Based Pruning Algorithm}{section.3.4}% 28
+\BOOKMARK [0][-]{chapter.4}{PRROBLEM DEFINITION}{}% 29
+\BOOKMARK [0][-]{chapter.5}{THE PROPOSED SYSTEM}{}% 30
+\BOOKMARK [0][-]{chapter.6}{CONCLUSION}{}% 31
+\BOOKMARK [0][-]{chapter*.5}{REFERENCES}{}% 32

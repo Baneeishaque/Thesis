@@ -16,7 +16,7 @@
 \section[General Background]{\fontsize{14}{12}\selectfont \MakeUppercase{GENERAL BACKGROUND}}
 OSNS have become integral part of our daily life and has profoundly changed the way we interact with each other, information sharing, appreciation and respect.Photo sharing is an attractive feature which popularizes Online Social Networks (OSNs). Unfortunately, it may leak users’ privacy if they are allowed to post, comment, and tag a photo freely. In this project , we attempt to address this issue and study the scenario when a user shares a photo containing individuals other than himself/herself (termed co-photo for short). However, once something, such as a photo, is posted online, it becomes a permanent record, which may be used for purposes we never expect.Because OSN users may be careless in posting content while the effect is so far-reaching, privacy protection over OSNs becomes an important issue. When more functions such as photo sharing and tagging are added, the situation becomes more complicated. For instance, nowadays we can share any photo as we like on OSNs, regardless of whether this photo contains other people (is a co-photo) or not.Currently there is no restriction with sharing of co-photos, on the contrary, social network service providers like Facebook are encouraging users to post co-photos and tag their friends in order to get more people involved [1],[5]. However, what if the co-owners of a photo are not willing to share this photo? Is it a privacy violation to share this co-photo without permission of the co-owners? Should the co-owners have some control over the co-photos?
  
- \nointent
+ %% \nointent
   \vspace*{1pc}
 To answer these questions, we need to elaborate on the privacy issues over OSNs. Traditionally, privacy is regarded as a state of social withdrawal.To prevent possible privacy leakage of a photo, we design a mechanism to enable each individual in a photo be aware of the posting activity and participate in the decision making on the photo posting[1]. For this purpose, we need an efficient facial recognition (FR) system that can recognize everyone in the photo. To do this we need a professional facial recognition (FR) system that cans recognize everyone in the photo. We are using Haar cascade classifier for face detection and CBIR (content based image retrieval) algorithm to train individual’s images and for face recognition. To get enough training sample is actually little difficult task, so FR engine may be unsuccessful to identify the faces of each individual in a group photo. To avoid this we are using an efficient CBIR algorithm. Once the faces are identified from the group photo then acceptance notifications are sending automatically to each identified persons within the close friend circle. The photo will be posted if all the people within the friend circle are accepting the notification; the photo will not be posted if any one of them rejects the notification. We expect that our proposed scheme would be very useful in protecting users’ privacy in photo/image sharing over online social networks[13].
 
@@ -33,7 +33,7 @@ Social networking has changed the way we interact with friends and associates. W
 \noindent
 We know that Face book is the most popular social networking site at present. Number of monthly active Facebook users worldwide as of 4th quarter 2016 (in millions)is shown in figure 1.1. This statistic shows a timeline with the worldwide number of monthly active Facebook users from 2008 to 2016. As of the fourth quarter of 2016,which is showed in X -coordinate, Facebook had 1.86 billion monthly active users,which is showed in Y-coordinates. Active users are those which have logged in to Facebook during the last 30 days.  Every day, people add more than 100 million tags to photos on Facebook.At present around 350 billion photos are uploaded in facebook.so secure computing is an  important domain at present[6].
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 In software engineering, dependability is the ability to provide services that can defensibly be trusted within a time-period and  is a measure of a system's reliability, safety and security. Secure computing deals with Computer security, also known as cyber security  or IT security is the protection of computer systems from the theft or damage to the hardware, software or the information on them, as well as from disruption or misdirection of the services they provide today.The field is of growing importance due to the increasing reliance on computer systems and the Internet in most societies, wireless networks such as Bluetooth and Wi-Fi and the growth of "smart" devices, including smart phones, televisions and tiny devices as part of the Internet of Things.
 \subsection[Facial Recognition]{Facial Recognition}
@@ -95,17 +95,17 @@ Number social networking  of subscribers are increasing day by day thus privacy 
 %\end{figure}     
 Every day, people add more than 100 million tags to photos on Facebook. That's the number Facebook provides before activating semi automated photo tagging by facial recognition.  In this document, it is inspected confidentiality concerns and mechanisms regarding this tagged photograph. Using a focal point of group, we explored the requirements and concerns of users, follow-on in a set of design considerations for tagged photograph confidentiality[2],[4],[6].
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 Now Facebook added the new security to prevent the privacy leakage issue due to photo tagging, people can set “review the tag before appearing the time line option “.but still people can share the photo because somebody is uploading the photo first without taking the co- photo owner’s permission so even the review tag options is available,  it  is not preventing co-photo owner’s privacy. 
 \section[Multy Party Privacy Risks In Social Networks]{\fontsize{14}{12}\selectfont MULTI-PARTY PRIVACY RISKS IN SOCIAL NETWORKS}
 Most social media users consistently criticize mainstream social media for providing very complex privacy controls. These are often too difficult to understand, require time-consuming manual configuration, and do not allow for appropriate privacy management. Users are required to set many privacy controls . This makes most users unable to cope with the complexity of privacy management in social media, which has led to numerous incidents in which people have lost their jobs, have been cyber bullied, or have lost court cases due to the inappropriate communication of personal information through social media. Empirical evidence shows that  this  significantly  discourages  users  to  either  join  social media  or  to  show  high  engagement  when  they  join in terms of how much they participate in social media sites, e.g., the  amount  of  photos  they  upload. In this section, we examine how the lack of joint privacy controls over content can inadvertently reveal sensitive information about a user including preferences, relationships, conversations, and photos.
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 This slow erosion of personal privacy can be prevented by the adoption of multi party privacy controls. The current lack of multi party privacy results in scattered references to users throughout social networks that can be collected by adversaries who have the resources, sophistication, and motivation to glean as much information from social networks as possible[9],10],[19]. 
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 Here user can decide how many want to give the access permission to share the group photo, so user  can select a group of people before uploading a group photo, those are allow to access and share the group photo or user can select certain people and deny  their access and share permission of a group photo. This is also one of the prevention method of privacy leakage issue but still a single conflict may pose a minimal risk to privacy and  still it is not preserving the co-photo owners privacy.
 \section[Rapid Object Detection Using A Boosted Cascade Of Simple Features]{\fontsize{14}{12}\selectfont RAPID OBJECT DETECTION USING A BOOSTED CASCADE OF SIMPLE FEATURES}
@@ -114,7 +114,7 @@ Face detection algorithms detects faces and determines the precise face area and
 \begin{table}[H]
 \centering
 \caption{Face detection methods }
-\\
+~\\
 \label{tb1}
 \begin{tabular}{|c|c|c|}
 \hline
@@ -150,7 +150,7 @@ Haar cascade classifier is  trained with a lot of face images and non face  imag
 \noindent
 Cascade classifier composed of different stages and each stage has certain no of features.Each stage is used to determine a given sub windows face or not. The sub window is immediately discarded if it is not a face.
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 Face detection using Haar cascade classifier is very fast, it has an efficient feature selection still there will be error or miss classification.100 percentage accuracy cannot be ensured[14].
 %---------------------------------------------------------------------------------------------
@@ -158,7 +158,7 @@ Face detection using Haar cascade classifier is very fast, it has an efficient f
 \noindent
 Using face annotation for effective management of personal photos in online social networks (OSNs) is currently of considerable practical interest. In this paper, we propose a novel collaborative face recognition (FR) framework, improving the accuracy of face annotation by effectively making use of multiple FR engines available in an OSN. In particular, our collaborative FR framework consists of two major parts: selection of FR engines and merging (or fusion) of multiple FR results. The selection of FR engines aims at determining a set of personalized FR engines that are suitable for recognizing query face images belonging to a particular member of the OSN. For this purpose, we exploit both social network context in an OSN and social context in personal photo collections. In addition, to take advantage of the availability of multiple FR results retrieved from the selected FR engines, we devise two effective solutions for merging FR results, adopting traditional techniques for combining multiple classifier results. Experiments were conducted using 547,991 personal photos collected from an existing OSN[3].
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 Our results demonstrate that the proposed collaborative FR method is able to significantly improve the accuracy of face annotation, compared to conventional FR approaches that only make use of a single FR engine. We demonstrate that our collaborative FR framework has a low computational cost and comes with a design that is suited for deployment in a decentralized OSN. Accuracy is high in  collaborative FR system but it is time consuming and 100 percentage  face recognition is not ensure here.
 \section[Color and Texture Features for Content Based Image Retrieval]{\fontsize{14}{12}\selectfont  COLOR AND TEXTURE FEATURES FOR CONTENT BASED IMAGE RETRIEVAL}
@@ -181,7 +181,7 @@ approximation . A scalar wavelet cannot possess all these properties together at
 \item  Compute the standard deviation σ k on each sub-band of the Multi Wavelet decomposed
 image.
 \item  The resulting SD vector is 
-$f$ = [ \sigma 1, \sigma2, \sigma 3, ..., \sigma k ]
+%$f$ = [ \sigma 1, \sigma2, \sigma 3, ..., \sigma k ]
  
 \end{enumerate}
 
@@ -204,7 +204,7 @@ D^{E}_{qi} = \sqrt{\left(\overline{f_q }-\overline{f_i}\right)^2}
 \end{equation}
 \item Retrieve all relevant images to query image based on minimum Euclidean distance.
 \end{enumerate}
-\nointent
+%% \nointent
 The main advantage of wavelet decomposition is that it yields a large number of sub bands. which in turn improves the retrieval accuracy. A major disadvantage of this technique is its limitation in feature set.
 
 %------------------------------------------------------------------------------
@@ -213,12 +213,12 @@ The main advantage of wavelet decomposition is that it yields a large number of 
 \noindent
 To retrieve any image, we have to search for it among the database using some search engine. Then, this search engine will retrieve many of images related to the searched one. The main problem encounters user here is the difficulty of locating his relevant image in this large and varied collection of resulted images. This problem referred to as image retrieval problem.The earlier approach for image retrieval is text-based, in which images are indexed using keywords, subject headings, or classification codes which in turn are used as retrieval keys during search and retrieval. Unfortunately, for the large database the difficulties faced by text-based retrieval became more and more severe and the process becomes very laborious and time consuming task.
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 To overcome these problems and others, the image contents, features of the image, like color, texture and shape that are automatically extracted from the images themselves have been used for image retrieval. This method is called content-based image retrieval (CBIR) [7]. CBIR enables the elimination of the difficulties that exist in traditional text-based query for large image database and then the system will provide better indexing and return more accurate results.
 "Content-based" means that the search will analyze the actual contents of the image rather than the metadata such as keywords, tags, and/or descriptions associated with the image. The term 'content' in this context might refer to colors, shapes, textures, or any other information that can be derived from the image itself[16],[17].
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 Existing system explain the image retrieval using CBIR with Haar wavelength transformation[12],[15]. System Architecture of CBIR system is shown in Figure 2.2.It has mainly two phases, indexing and searching. Indexing includes decomposition, feature extraction and clustering and another one is searching for a query image. It is an image retrieval technique using Modified Haar Wavelet Transform and K Means Clustering First process is image training including decomposition, feature extraction and clustering. In the searching phase the most similar images to the query image [12], from the cluster files can be retrieved using CBIR image retrieval algorithm[8].
  \clearpage 
@@ -263,18 +263,18 @@ The main unit of CBIR is an image retrieval technique that used to retrieve from
 The time of image retrieval in almost all CBIR systems depends in a large degree on the number of images in the database. Many existing systems attempt to compare the query image with every target image in the database to find the top matching images, resulting in an essentially linear search, which is highly computationally inefficient when the database is large. However, it is a benefit to use all images in the database for similarity matching, so that the results will be good enough. To overcome this problem, image clustering or categorization has often been treated as a preprocessing step to speed-up image retrieval in large databases and to improve the accuracy so that when a query is received, only a part of the database needs to be searched, while a large portion of the database may be eliminated in the search. This certainly saves significant query processing time without compromising the retrieval precision. Clustering algorithms are used as a preprocessing step, performed offline, to cluster the database into N different categories and each feature vector, along with its associated class number, is recorded in the database files. 
 The basic step of k-means clustering is simple. In the beginning, determine number of cluster K and assume the centroid or center of these clusters. We can take any random objects as the initial centroids or the first K objects can also serve as the initial centroids. Then the K means algorithm will do the three steps below until convergence.
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 Clustering is very efficient and powerful technology to handle large data sets. It assists faster image retrieval and also allows the search for most relevant images in large image database [16]. K-means is a clustering method which is known for its efficiency in producing accurate results in image retrieval. By using k-means user can select the closer group of image so that they get fast result. 
 Finally, query image is the image the user is interested in and wants to find similar images from the image database. The feature vector for the query image is extracted and is now compared with the image clusters. Based on minimum Euclidean distance, the target image cluster closest to the query image is retrieved from the database.\\
 In the proposed system, we use k-means algorithm to classify the feature vectors of the input images. We select the k-means algorithm because it is suitable to cluster large amount of data. Each feature vector is treated as an object having a location in space. The cluster generates in which objects within this cluster are close to each other and far from objects in other clusters as possible. Selecting the distance measure is an important step in clustering. The distance measure determines the similarity of two images. 
 A cluster is a group of objects that are similar to each other within the same group and are dissimilar to the objects in other groups. Clustering has been widely used in different applications, including pattern recognition, data analysis, machine learning, and image processing. K-means is one of the simplest clustering algorithms. In k-means algorithm, the clustering results are measured by the sum of within-cluster distances between every vector and its cluster centroid. This criterion ensures that the clusters generated are tight. K-means algorithm takes k, the number of clusters to be generated, as the input parameter and partitions a set of N objects into k clusters so that the resulting intra-cluster similarity is high but the inter-cluster similarity is low. If the number of clusters is not specified, a simple method is done. The algorithm initializes the number of clusters to a certain number less than the total number of the dataset. The algorithm increases that number gradually until the average distance between a vector and its cluster centroid is below a given threshold [12].
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 The k-means algorithm works as the following. The number of clusters, k, is entered as an input parameter. The algorithm randomly selects k of the objects, each of which initially represents a cluster centroid. The centroid for each cluster is a point to which the sum of distances from all objects in that cluster is minimized. For each of the remaining objects, an object is assigned to the cluster to which it is most similar.
 \section[Performance Analysis of Existing System]{\fontsize{14}{12}\selectfont PERFORMANCE ANALYSIS OF EXISTING SYSTEM}
-\noindent
+%\noindent
 This section, analyse the overall performance of the existing system by computing the
 performance score for each module in the system. The performance analysis graph is shown in Figure 2.3 The modules used for the performance analysis  are image training and  face recognition. Then plot the performance graph with time in seconds.The time taken to run each module is added in the given table 2.2, which is the observation table for CBIR algorithm.
 \\ 
@@ -323,13 +323,13 @@ performance score for each module in the system. The performance analysis graph 
 \noindent
 In a typical CBIR system, low- level visual image features that is colour, texture, and shape are automatically extracted for image descriptions and indexing purposes. To search for desirable images, a user presents an image as an example of similarity, and the system returns a set of similar images based on the extracted features  The main issue with CBIR system is the time of image retrieval in almost all CBIR systems depends in a large degree on the number of images in the database.
 
- \nointent
+%% % \nointent
   \vspace*{1pc} 
 Two main issues with CBIR systems are efficiency and accuracy. Hence, an effective CBIR system needs to have an efficient search mechanism and also accurate set of features. Out of all the mechanisms used in CBIR, k-means clustering is found to have better efficiency and accuracy. 
 "Content-based" means that the search will analyze the actual contents of the image rather than the metadata such as keywords, tags, and/or descriptions associated with the image. The term 'content' refer to colours, shapes, textures, or any other information that can be derived from the image itself.
  CBIR is desirable because most web based image search engines rely purely on metadata and this produces a lot of garbage in the results. Also having humans manually enter keywords for images in a large database can be inefficient, expensive and may not capture every keyword that describes the image.
  
- \nointent
+ %% \nointent
   \vspace*{1pc}
    Thus system that can filter images based on their content would provide better indexing and return more accurate results. Again the performance of the CBIR system is improved by using K-Means clustering technique .If we are using CBIR to train individual’s images and for face recognition in our proposed system. To get enough training sample is actually little difficult task, so FR engine may be unsuccessful to identify the faces of each individual in a group photo.FR engine could be trained to recognize social friends (people in social circle) but to get enough training sample is a difficult task.To get efficient result CBIR demands more training samples (photos of each specific person), but online photo resources are often insufficient, also with varying poses and facial expressions CBIR system may fail to recognize the faces of each individual in a group photo. More demanding privacy setting may limit the number of the photos publicly available to train the FR system..Another major issue we are facing is large number of users are absent for us to carry out the network-wide evaluation. We simulate a real-life social network with the small-world network.
  \clearpage
@@ -339,7 +339,7 @@ Two main issues with CBIR systems are efficiency and accuracy. Hence, an effecti
 \noindent
 The proposed system is used to reduce the privacy leakage issues while uploading a photo through OSNs.CBIR algorithm is used for face recognition in the proposed system.CBIR algorithm is one of the most popular algorithm used for image retrieval.CBIR system  defines the similarity between contents of two images based on global feature(i.e. features extracted from the whole image).The proposed system  using Haar cascade classifier for face detection,it crops all the face regions from the images ,so need not find the similarity based on global feature.
 
- \nointent
+ %% \nointent
   \vspace*{1pc}
   To curb the privacy leakage, we proposed to enable individuals potentially in a photo to give the permissions before posting a co-photo. We designed a privacy preserving Content based image retrieval FR system to identify individuals in a co-photo.Face detection is an important part in the proposed system because in the proposed system each co-photo owners are participating in the decision making of photo uploading through social networks.\vspace{1 pc} The proposed system is featured with low computation cost and confidentiality of the training set.  The proposed system added time limit for notification acceptance, and SMS notification to inform the co-photo owner about the time limit for notification. We expect that our proposed scheme be  very useful in protecting users’ privacy in photo/image sharing over online social networks.
 \section[Proposed System Architecture]{\fontsize{14}{12}\selectfont PROPOSED SYSTEM ARCHITECTURE}
@@ -355,22 +355,22 @@ The proposed system is used to reduce the privacy leakage issues while uploading
 \end{center}
 \end{minipage}
 \end{figure}
-\clearing
+%\clearing
 \subsection[Start]{Start}
-\noindent
+%\noindent
 %4.1.1Start
 User can register to Online Social Network by entering the details like name, DOB, gender, Email, mobile number, user name, password etc. Once registered successfully user can login to his/her account. User or admin can login to this system if they have a valid user id and password. Admin can login with a valid password, once login admin can view the user details. Main function of admin is to train the user image
 \subsection[Specify Policy]{Specify policy}
-\noindent
+%\noindent
 %4.1.2 Specify policy
 We assume that each user u has a privacy policy$Pu(i)$ and a exposure policy $Eu(i)$ for a specific photo$ i$. The privacy policy $Pu(i)$ indicates the set of users who can access photo$ i $
 .In our project we set two options ,one is view public and net is view my friends.If a user is selecting public option ,once photo is uploaded  that photo will be shown publically ,if he/ she is setting only my friends option then once the photo is  uploaded ,it  will be available in the time line of his/her friends home page.Exposure policy $Eu(i)$ indicates the set of users who can access$ i$ when user $u$ is involved.In our project we limited this within the close friend list. According to our scheme, this friend list should be intersection of owner’s privacy policy and co-photo owners’ exposure policies. At present, when the push button “Post Photo” is pressed, co-owners of$ i$ are identified, and then notifications along with $i$ are sending to the co-owners  within the close friend list to request permissions. If they all agree to post$ i$, $i$ will be shared on the owner’s page like a normal photo. In this sense, users could specify their privacy policy but their exposure policies are depends the set of users who can access $i$ when user $u$ is involved.
 \subsection[Training]{Training}
-\noindent
+%\noindent
 %4.1.3 Training
 A log in/out button could be used for log in/out with our social network site. After login , user can train their individual images , we need an efficient content based image retrieval facial recognition (FR) system that can used to train users images. We are using Haar cascade classifier for face detection and CBIR algorithm to train individual’s images and for face recognition.  FR engine could be trained to recognize social friends (people in social circle) but to get enough training sample is a difficult task.
  
- \nointent
+ %% \nointent
   \vspace*{1pc}
 FR engine with advanced recognition ratio demands more training samples. In the training phase, both decomposition and feature extraction takes place. Haar Wavelet Transform is used for calculating the feature vectors, weighted feature vector represented as weight function w(). Then k-means clustering algorithm is used for clustering the images based on their feature vectors , considering the minimum Euclidean distance. The basic idea is to transfer an image into matrix in which each element of the matrix represents a pixel in the image. A Haar Wavelet transform decomposes an image into two components: average and difference.Each color in the image can be represented by considering the pixels as a point in space and from this matrices for each Red, Green and Blue components of RGB are constructed. This is then decomposed into four sub matrices through row and column transformations[Appendix-A].
  % \thispagestyle{empty
@@ -424,7 +424,7 @@ Given a square matrix$A$ and $A_i$ is  a sub matrix from it, then $F$- norm give
 \end{equation}
 The equation for calculating mean($\mu$)is shown in equation(4.4)
  \begin{equation}
-\text{Mean($\mu$)}=\frac{\sum \text{F-norm}}{\text{no of columns of F-norm}}}
+%\text{Mean($\mu$)}=\frac{\sum \text{F-norm}}{\text{no of columns of F-norm}}}
 \end{equation}
 The equation for calculating standard deviation($\sigma$)is shown in equation(4.5)
  \begin{equation}
@@ -438,7 +438,7 @@ The equation for calculating variance($\sigma^{2}$)is shown in equation(4.6)
  %%%%%%%%%%%%%%5
  \begin{description} 
  \item[(iv)]K Mean Algorithm
- \end{description}  
+ %\end{description}  
 The basic step of k-means clustering is simple. In the beginning, determine number of cluster K and assume the centroid or center of these clusters. We can take any random objects as the initial centroids or the first K objects can also serve as the initial centroids. Then the K means algorithm will do the three steps below until convergence[12].
     % \begin{enumerate}
     % \item aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -470,11 +470,11 @@ User can search through this social networking site to get friends ,there is an 
 Once  user is logging in to his/her account, he/she can use the photo posting feature of OSN.
 In this phase, when an image is uploaded,all the faces in the images is detected by open CV  face detection  using Haar Cascades. Once each faces are croped from the given image then its feature vectors are computed using the same procedure which we have done in training image. This vector is compared to the vectors of images in the training set using Euclidean distance.
 
- \nointent
+%% % \nointent
   \vspace*{1pc}
 The classification of the most similar images would be returned as the class of the newly uploaded image, similarity function represented sim() , then checking  the recognized faces are in  the friend list of uploader. When posting a group photos on online social network an automatic acceptance notification is sending to the co photo owners in the close friend circle  informing their presence in that group photo, so each co-photo owners are getting the chance to view the photo where they are in before the up loader post the photo and any one of them press reject button nobody can upload that photo, if all are pressing acceptance button, then only the photo will be posted. More over we set a time limit for the notification acceptance(5 days),  if the time limit is exceeded the photo will be uploaded automatically otherwise if co-photo owners are not login to this system for long then nobody can use photo sharing feature of OSNs.Sometimes the co-photo owners are unable to login to this account within the time limit but photo will be uploaded after the time limit,it will become another privacy issues. To avoid this issue we can add SMS notification  to inform each co-photo owners about the photo uploading and time limit, so it is useful them to login to the system and either accept or reject the notification.
 
- \nointent
+% % \nointent
   \vspace*{1pc}
 Proposed system is used to prevent possible privacy leakage of a photo, this mechanism is enabled each person in a photograph be aware of the posting the photograph and actively participate in the decision making on the photograph posting.
 \clearpage
@@ -526,7 +526,7 @@ The flow graph shown in figure 4.2 shows  the entire flow of proposed system cle
 \end{algorithmic}
 \end{algorithm}
 
- \nointent
+% % \nointent
   \vspace*{1pc}
 CBIR algorithm is used for face recognition in the proposed system.CBIR algorithm is one of the most popular algorithm used for image retrieval.The proposed system  using Haar cascade classifier for face detection,it crops all the face regions from the images ,so need not find the similarity based on global feature.in the proposed algorithm we are  giving face images  which is croped using  Haar cascade classifier to the CBIR system , then find  the feature vector for each and calculate  Euclidean distance to get most matching image ,the image which is already trained and saved in cluster files.Our proposed scheme be  very useful in protecting users’ privacy in photo/image sharing over OSNs.
 \clearpage
@@ -626,7 +626,7 @@ This section discuss the design of the proposed system.Figure 4.5 gives the desc
 \subsection{Table design}
 The project require a database for storing details of admin and users  and their operations.This section also explains various tables used for the project.The relational database management system MySql server is used for this purpose.The databse is constantly updated and maintained.
 
- \nointent
+% % \nointent
   \vspace*{1pc}
 The database table "approve request" shown in figure 4.11 is used  when a user is uploading a photo using post photo option a post id will be generated , photo uploader name will be added to  the column” From user “ and all the recognized persons who need to get the notifications will be added to the column “ To user”.Initially status will be zero ,any one is accepting the notification then  corresponding status value will be changed to one and any one is  rejecting the notification  then corresponding status will be changed to two.
 \begin{figure}[H]
@@ -640,7 +640,7 @@ The database table "approve request" shown in figure 4.11 is used  when a user i
 %\end{center}
 \end{minipage}
 \end{figure}
-\nointent
+% \nointent
 \justifying
 The database table image training shown in figure 4.12 is used to add details while a user upload his/her photos for training purpose. Initially   values in status column are  zero for all registered users ,once training   is done successfully selected photo for training will be added to the table and status will be updated to the value one.
 \begin{figure}[H]   
@@ -654,7 +654,7 @@ The database table image training shown in figure 4.12 is used to add details wh
 %\end{center}
 \end{minipage}
 \end{figure}
-\nointent
+% \nointent
 \justifying
 The database table" friend request" is shown in figure 4.13 is used when a user is sending a friend request to anyone in this project, then the sender’s and receiver’s name will be added to the friend request table .  Initially  values in the status column will be zero and if the receiver is accepting the friend request, status will be changed to the value one.
 \begin{figure}[H]
@@ -668,7 +668,7 @@ The database table" friend request" is shown in figure 4.13 is used when a user 
 %\end{center}
 \end{minipage}
 \end{figure}
-\nointent
+% \nointent
 \justifying
 The data base table "post" shown in figure 4.14 is used when an user  is posting  a photo, then username , photo used to upload and date of attempt will be added to the table .Initially status will be zero and once the photo is posted, then status will be changed to one.
 \begin{figure}[H]
@@ -682,7 +682,7 @@ The data base table "post" shown in figure 4.14 is used when an user  is posting
 %\end{center}
 \end{minipage}
 \end{figure}
-\nointent
+% \nointent
 \justifying
 The data base table "registration" shown in figure 4.15 is used when a person is registering with social networking system,  All user details will be added to this registration table. Here” username” set as primary key. In this table 4.5 privacy policy indicates set of users  who can access the photo , value will be zero if the user selecting” public view” option and the value  will be one if user selecting  “view to my friends” option, if notification policy is selected by user then the corresponding value in the database table will be one otherwise zero.
 \begin{figure}[H]
@@ -697,7 +697,7 @@ The data base table "registration" shown in figure 4.15 is used when a person is
 \end{minipage}
 \end{figure}
 %%%%%%%%%
-\nointent
+% \nointent
 \justifying
 The data base table "face cutter" shown in figure 4.16 is used when the user is uploading a photo, image will be added to the table ,and no of detected faces in the   photo is added to the” count”  field.
 \begin{figure}[H]
@@ -799,7 +799,7 @@ Hard Disk &360GB           \\
 \noindent
 Careless photo posting may reveal privacy of individual in a posted photo. This result enables individuals potentially in a photo to give the permissions before posting a co-photo. I successfully  designed   and tested a privacy-preserving FR system to identify individuals in a co-photo. The proposed system is featured with low computation cost and confidentiality of the training set. Theoretical analysis and experiments were conducted to show effectiveness and efficiency of the work.
 
- \nointent
+% % \nointent
   \vspace*{1pc}
 To achive this goal i used CBIR algorithm with K- Mean clustering. The main target of CBIR is to get accurate results with lower computational time.I hope i have done the project with accurate result and lower computational cost.Careless photo posting may reveal privacy of individual in a posted photo. This project result enables individuals potentially in a photo to give the permissions before posting a co-photo.Various web pages of this project is given here.
 \clearpage
@@ -987,10 +987,10 @@ If all the notification are accepted by co-photo owners then the  photo will be 
 \clearpage
 
 \section[DISCUSSION]{\fontsize{14}{12}\selectfont DISCUSSION}
- \nointent
+% % \nointent
 Control of photo sharing on online social network project work has completed successfully. Various test is conducted during the code generation phase itself. All the errors were rectified at the moment of its discovery. Attention is diverted to individual modules, independently to one another to locate errors.  Registration ,login, photo uploading, privacy policy settings, training individuals images, send and accept friend request ,photo detection, face recognition  and notification acceptance modules tested independently ,this has enabled the detection of errors in coding and logic. To test the efficient working  of  face recognition, we train this system by more than one photos with different  expressions and got successful result.To test the human face detection capability of haar cascade classifier, we tested with various face images, non face images and even with animal faces and got successful result. Finally all these modules are integrated in a master page and tested successfully.
 
- \nointent
+% % \nointent
   \vspace*{1pc}
 Careless photo posting may reveal privacy of individual in a posted photo. This result enables individuals potentially in a photo to give the permissions before posting a co-photo. We designed a privacy-preserving FR system to identify individuals in a co-photo. The proposed system is featured with low computation cost and confidentiality of the training set. Theoretical analysis and experiments were conducted to show effectiveness and efficiency of the work. I expect that scheme be very useful in protecting users’ privacy in photo/image sharing over online social networks.
 

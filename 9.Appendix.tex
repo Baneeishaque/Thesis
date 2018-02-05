@@ -7,7 +7,7 @@
 %\begin{publications}
 \section*{\fontsize{14}AAPPENDIX-A}
 %\section[APPENDIX-A]{\fontsize{14}{12}\selectfont \MakeUppercase{APPENDIX-A}}
-\nointent
+% \nointent
 To understand how wavelets work, let us start with a simple example. Assume we have a 1D image with a resolution of four pixels, having values  [8 10 6 4] . Haar wavelet basis can be used to represent this image by computing a wavelet transform.Consider the pairs of pixels (8; 10) and (6; 4), take the average of each pair,  9 and 5, and then record this in the next line. Then record the difference of the averages from the first value of the pair. This process is then applied to this new string resulting in the line, where the differences are just carried down. The values are shown  : 
 [8 10 6 4]
 
@@ -15,9 +15,9 @@ To understand how wavelets work, let us start with a simple example. Assume we h
 
 [7 2 -1 1] 
 
-\nointent
+% \nointent
 The differences recorded to the right hand side are known as the detail coefficients. Thus, the original image is decomposed into a lower resolution (two-pixel) version and a pair of detail coefficients. The recursive process of averaging and differencing is called a filter bank. The original image can be reconstructed by recursively adding and subtracting the detail coefficients from the lower resolution versions.
-\nointent
+% \nointent
 For 2D Haar Transform [6] the procedure remains the same. For example, apply 2D HT to the following finite 2D signal.
 \[
   I=
@@ -28,14 +28,14 @@ For 2D Haar Transform [6] the procedure remains the same. For example, apply 2D 
   2 & 8 & 1 & 2
   \end{array} } \right]
 \]
-\nointent
+% \nointent
 Using 1D HT along first row, the approximation coefficients are: 
 \[ \frac{1}{\sqrt{2}}\left( 1 + 2\right) and \frac{1}{\sqrt{2}}\left( 2 + 3\right)\]
-\nointent
+% \nointent
 
 And the detail coefficient are: 
 \[ \frac{1}{\sqrt{2}}\left( 1 - 2\right) and \frac{1}{\sqrt{2}}\left( 2 - 3\right)\]
-\nointent
+% \nointent
 The same transform is applied to the other rows of I. By arranging the approximation parts of each row transform in the first two columns and the corresponding detail parts in the last two columns we get the following results: 
 
 
@@ -60,7 +60,7 @@ The same transform is applied to the other rows of I. By arranging the approxima
   2 & 5: & 0 & 5
   \end{array} } \right]
 \]
-\nointent
+% \nointent
 Thus we have
 
 \[
@@ -84,8 +84,8 @@ Thus we have
 \]
 
 
-\nointent
-Each piece shown in example has a dimension (number of rows/2) × (number of columns/2) and is called A, H, V and D respectively. A (approximation area) includes information about the global properties of analyzed image. Removal of spectral coefficients from this area leads to the biggest distortion in original image. H (horizontal area) includes information about the vertical lines hidden in image. Removal of spectral coefficients from this area excludes horizontal details from original image. V (vertical area) contains information about the horizontal lines hidden in image. Removal of spectral coefficients from this area eliminates vertical details from original image. D (diagonal area) embraces information about the diagonal details hidden in image. Removal of spectral coefficients from this area leads to minimum distortions in original image. 
+% \nointent
+Each piece shown in example has a dimension (number of rows/2) ï¿½ (number of columns/2) and is called A, H, V and D respectively. A (approximation area) includes information about the global properties of analyzed image. Removal of spectral coefficients from this area leads to the biggest distortion in original image. H (horizontal area) includes information about the vertical lines hidden in image. Removal of spectral coefficients from this area excludes horizontal details from original image. V (vertical area) contains information about the horizontal lines hidden in image. Removal of spectral coefficients from this area eliminates vertical details from original image. D (diagonal area) embraces information about the diagonal details hidden in image. Removal of spectral coefficients from this area leads to minimum distortions in original image. 
 
 
 

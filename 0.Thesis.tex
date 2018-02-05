@@ -58,8 +58,8 @@
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 \usepackage[nottoc,notlof,notlot]{tocbibind}
-
-\usepackage{tocloft} % the tocloft package lets you redefine the Table of Contents (ToC)
+\usepackage[subfigure]{tocloft}
+%\usepackage{tocloft} % the tocloft package lets you redefine the Table of Contents (ToC)
   \renewcommand\cftchappresnum{Chapter  }
   \renewcommand{\cftchapaftersnum}{.}
 
@@ -85,6 +85,11 @@
 \renewcommand{\bibname}{REFERENCES}
 
 %\renewcommand{\bibname}{List of Publications}
+\newenvironment{acknowledgement}%       New acknowledgement environment
+    {\large\bfseries Acknowledgement%
+    \par\medskip\normalfont\normalsize}%
+    {}%
+
 \begin{document}
 
 \titleformat{\chapter}[display]
@@ -157,8 +162,8 @@
 %\input{9.Publication.tex}
 %\addcontentsline{toc}{chapter}{\normalfont\normalsize PUBLICATIONS}
 %\addcontentsline{toc}{section}{REFERENCES}
-\input{8.Publications.tex}
-\input{9.Appendix.tex}
+%\input{8.Publications.tex}
+%\input{9.Appendix.tex}
 
 %\input{9.Appendix.tex}
 

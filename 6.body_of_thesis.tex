@@ -1,6 +1,6 @@
 \addtocontents{toc}{\cftpagenumbersoff{chapter}}
 
-\setstretch{2}
+\setstretch{1.5}
 
 \chapter[INTRODUCTION]{\fontsize{16}{12}\selectfont INTRODUCTION}
 
@@ -11,282 +11,284 @@ RFId (Radio-Frequency Identification) is a technology that allows remote recogni
 The tag can be printed or inserted into objects of different shape (such as a badge), and coated with the most suitable material for the usage that one wishes to do and then customized with prints, images, texts, logos, photos and bar codes. A suitable reader interrogates the tags to obtain the information of interest. Before using an RFId system as part of a control system for a safety application, one has to know the way the RFId system operates and understand the best way to use it.
 
 \begin{comment}
-\vspace*{1pc}
-To answer these questions, we need to elaborate on the privacy issues over OSNs. Traditionally, privacy is regarded as a state of social withdrawal.To prevent possible privacy leakage of a photo, we design a mechanism to enable each individual in a photo be aware of the posting activity and participate in the decision making on the photo posting. For this purpose, we need an efficient facial recognition (FR) system that can recognize everyone in the photo. To do this we need a professional facial recognition (FR) system that cans recognize everyone in the photo. We are using Haar cascade classifier for face detection and CBIR (content based image retrieval) algorithm to train individual’s images and for face recognition. To get enough training sample is actually little difficult task, so FR engine may be unsuccessful to identify the faces of each individual in a group photo. To avoid this we are using an efficient CBIR algorithm. Once the faces are identified from the group photo then acceptance notifications are sending automatically to each identified persons within the close friend circle. The photo will be posted if all the people within the friend circle are accepting the notification; the photo will not be posted if any one of them rejects the notification. We expect that our proposed scheme would be very useful in protecting users’ privacy in photo/image sharing over online social networks.
-
-
-\subsection[Dependable and Secure Computing]{Dependable and Secure Computing}
-Social networking has changed the way we interact with friends and associates. While social networks, like Facebook, Twitter, YouTube etc play a significant role in our lives, they are also a high risk for security threats.With hundreds of millions of users online, these tools not only attract friends and family wanting to stay in touch, but they also attract people wanting to know about you for the wrong reasons. Be aware of the security threats currently out there to help you stay safe online especially while uploading group photo on online social networks.Secure computing has an important role in photo sharing  on online social networks especially in face book.
-
 \begin{figure}[h!]
 	\centering
-		\includegraphics[scale=0.7]{fb.jpg}
-			\caption[Number of Monthly Active Facebook Users World wide as of 4th Quarter 2016 (in millions)]{ Number of monthly active facebook users worldwide as of 4th quarter 2016 (in millions)}
-			\label{fg}
+	\includegraphics[scale=0.7]{fb.jpg}
+	\caption[Number of Monthly Active Facebook Users World wide as of 4th Quarter 2016 (in millions)]{ Number of monthly active facebook users worldwide as of 4th quarter 2016 (in millions)}
+	\label{fg}
 \end{figure}
+\end{comment}
 
-\noindent
-We know that Face book is the most popular social networking site at present. Number of monthly active Facebook users worldwide as of 4th quarter 2016 (in millions)is shown in figure 1.1. This statistic shows a timeline with the worldwide number of monthly active Facebook users from 2008 to 2016. As of the fourth quarter of 2016,which is showed in X -coordinate, Facebook had 1.86 billion monthly active users,which is showed in Y-coordinates. Active users are those which have logged in to Facebook during the last 30 days.  Every day, people add more than 100 million tags to photos on Facebook.At present around 350 billion photos are uploaded in facebook.so secure computing is an  important domain at present.
+\addtocontents{toc}{\cftpagenumberson{chapter}}
+
+\chapter[LITERATURE REVIEW]{\fontsize{16}{12}\selectfont LITERATURE REVIEW}
+
+\section[USAGES IN MACHINERY APPLICATIONS]{\fontsize{14}{12}\selectfont USAGES IN MACHINERY APPLICATIONS}
+
+\subsection[Usage in machinery safety applications]{Usage in machinery safety applications}
+
+An RFId system cannot be used as an ESPE (Electro sensitive protective equipment). Such equipment is used in a control system of a machine to prevent access to dangerous areas. The device operates when an optical beam is interrupted by the passage of objects or parts of the body of a person. In practice, the instant the beam is interrupted, the control system knows the position of the person who is interrupting it. In the time interval that precedes this event the control system assumes that there is no dangerous situation, yet there is a non-zero probability that in the time interval that comes after the interruption a dangerous situation could be present, for such reason the control system initiates actions that bring the machine to a safe state. 
 
 \vspace*{1pc}
-In software engineering, dependability is the ability to provide services that can defensibly be trusted within a time-period and  is a measure of a system's reliability, safety and security. Secure computing deals with Computer security, also known as cyber security  or IT security is the protection of computer systems from the theft or damage to the hardware, software or the information on them, as well as from disruption or misdirection of the services they provide today.The field is of growing importance due to the increasing 
-reliance on computer systems and the Internet in most societies, wireless networks such as Bluetooth and Wi-Fi and the growth of "smart" devices, including smart phones, televisions and tiny devices as part of the Internet of Things.
+An RFId system cannot know the position of anything that has not been previously associated with a tag (it recognizes the presence of tags within its operational area). For such a reason it can’t put the machine in a safety state if any subject without a tag enters the operational area of the reader. Actually, the system could be able to initiate an action only if people who wear a tag come into this area. Such behavior is not safe in an ESPE.  
 
-\subsection[Facial Recognition]{Facial Recognition}
-Facial recognition(FR) technology once seemed like something out of the movies, but it is increasingly being incorporated into our everyday lives. Both public and private sector organizations are incorporating facial recognition into products and services to create substantial benefits for consumers. As with any new technology, innovative capabilities can present new or expanded privacy risks. Facial recognition data is personal and sensitive, making privacy an important challenge for companies. Commercial use of facial recognition technology raises many of the same security concerns applicable to sensitive personal information generally.  social networks and other large databases of identified individual images could increasingly become the targets of access by unauthorized individuals, leading to consumers’ facial recognition data being used in ways that consumers cannot anticipate or control, and without their knowledge. CBIR , Content Based Image Retrieval has been a significant area of research in the last few decades. 
+\vspace*{1pc}
+Conversely an RFId system works very well to permit access to a hazardous area to persons who are authorized (i.e. provided with an authorized tag), then an RFId system works very well as key, or to allow the activation of certain devices (e.g.: work equipment) only by a known operator (with tags). In fact, from this point of view it has even higher functionality, as the tag is associated with an identifier, fact this that allows the implementation of a hierarchy of permissions.
 
-\section[Objective]{\fontsize{14}{12}\selectfont OBJECTIVE}
-Photo giving out is one of the most well-liked features in online social networks such as Facebook. Lamentably, imprudent photograph posting may uncover security of people in a posted photograph. Main objective of the system is preventing the possible privacy leakage issue related to group photo uploading in social networks. To establish this every co-photo owners should participate in the decision making of photo posting. The system can solves the subject of posting group photos on a social network by sending a notification to co photo owners regarding their presence. If the entire co-photo owner then the s are accepting the notification, the group photo will be uploaded otherwise the photo will be rejected.  We assume that each user u has a privacy policy$ Pu(i)$ and an exposure policy $Eu(i)$ for a specific photo$ i$. The privacy policy$ Pu(i)$ indicates the set of users who can access photo$ u $and exposure policy$ Eu(i)$ indicates the set of users who can access$ i$ when user$ u$ is involved. One of the main objectives is to get an   efficient FR system for this project. If the photo co-owner is not login to the social network he or she is unable to see the notification and the group photo cannot be uploaded for long. To solve this issue it is possible to set a time limit, for example 2 days or 3 days.If it is set 3 days time limit after that photo will be uploaded automatically. More over for the photo co-owners safety it is possible to send SMS regarding the photo uploading and time limit, so they can login and either accept or reject the notification.. To do all of this we need a good FR system.  One of the main objectives is to get an   efficient FR system for this project . This system is using CBIR (content based image retrieval) algorithm with K-mean clustering for training images and face recognition.
+\vspace*{1pc}
+As an example, some individuals may be allowed to access certain areas and others to different areas, or some subjects can unlock some operation modes of the work equipment, such as the "maintenance mode", and other people can’t, and so on. In practice, in many applications one can’t use the RFId system as the main safety issue, because it only protects those people who wear a tag, but one could use it as an additional safety device. Without doubts it is easier (and natural) its use as a "key" or as a tool to disable a safety barrier, or to access to a particular operating mode (e.g. "maintenance mode", "training mode").
 
-\section[Scope]{\fontsize{14}{12}\selectfont SCOPE}
-A method is proposed to empower people conceivably in a photograph to give the consents before posting a co-photograph. A security protecting FR framework is outlined to distinguish people in a co -photograph. The proposed framework is highlighted with low calculation expense and classification of the preparation set. Hypothetical investigation and analyses were directed to show adequacy and proficiency of the proposed plan. We expect that our proposed plan be extremely helpful in ensuring clients' security in photograph/picture sharing over online informal communities. Then again, there dependably exist exchange off in the middle of protection and utility. We show that our system is superior to  other possible approaches in terms of recognition ratio and efficiency. Expect that this proposed scheme would be very useful in protecting users’ privacy.
+\subsection[Usage as additional safety device]{Usage as additional safety device}
 
-\section[Scheme]{\fontsize{14}{12}\selectfont SCHEME}
-\textbf{Chapter 1} This thesis is organized in such a way that, Chapter 1 includes the introduction section which explains Introduction including General Background, Objective, Scope, Scheme of project work etc.\\
-\textbf{Chapter 2} is about the literature survey.This chapter gives a brief survey done on control of photo sharing on online social networks.\\
-\textbf{Chapter 3} briefs the problem associated with the existing system.\\
-\textbf{Chapter 4} covers the proposed system \\
-\textbf{Chapter 5} covers task setup and implementation.\\
-\textbf{Chapter 6} deals with results and discussion.\\
-\textbf{Chapter 7} includes conclusion and future enhancement.\\
+In some cases, it is conceivable that the operation of a tool or equipment is allowed only in presence of operators (e.g.: a press or a CT scan or other). Such equipment may require special procedures to ensure the safety of people, by preventing unauthorized use or by stopping operations if there isn’t an authorized operator in the work area. During maintenance or other operations (for example: training) equipment can be operated, often in controlled mode (for example with a lower speed or with a reduced power). 
+
+\vspace*{1pc}
+But even in controlled mode there may be a residual risk which is not negligible, especially when there are third persons approaching the danger zone, that usually have nothing to do with the work going on. When such situations arise it can be in favor of safety if the operation, possibly in a controlled mode, can only be activated when the personnel authorized to operate in that particular mode (the maintainer, the trainer), provided with a tag, is present near the equipment. 
+
+\vspace*{1pc}
+To return to normal operation, however, it is better to be sure that the personnel, that before was in the hazardous area, be at the right distance from the hazardous parts (safety lock that can only be disabled when the reader no longer detects the tags inside its operational area). 
+
+\vspace*{1pc}
+Note that, in this case, the RFId system behaves as an additional protection (in fact it is not capable of detecting the presence or absence of persons not equipped with tags), this should not exempt anybody from the use of interlocks or shelters that can be opened only with a tool and a voluntary consent for the reactivation of the normal operation of the work equipment. 
+
+\subsection[Usage as safety interlocking device]{Usage as safety interlocking device}
+The interlocking devices of shelters of machinery are constituted by a position switch and an actuator that, at the opening of the shelter, actuates the position switch. The ISO 14119 standard classifies them into 4 types. Type 4 interlocking device, "interlocking device with non-contact actuated position switch with coded actuator", is able to operate with magnetic actuators, RFId tags or optic actuators.
+
+\vspace*{1pc}
+In this case the RFId system constitutes the actuator of the position switch when the shelter is closed. The advantage in the use of RFId systems is due to the fact that they are resistant to shocks and vibrations and allow high alignment tolerances. 
+
+\subsection[Usage as an additional PPE]{Usage as an additional PPE}
+An RFId system can be used to lock the operation of equipment in the event of the fall of an operator through openings beyond which there are moving parts. This is the case, for example, of threshing machines, harvesters, water pumps, shaving machines. In such equipment hay, grasses, liquid substances, wood enter from an input opening during normal operation. However, if the accidental entry of an operator happens then it is necessary to stop the moving parts. 
+
+\vspace*{1pc}
+In order to timely protect operators one can use an RFId system. The passive tags are integrated on the clothing or on bands that can be worn at the limbs, in the trunk/hips area, in the head/neck area, while the reader is placed at the input opening which must be located sufficiently distant from the moving parts (the operational area of the reader coincides with the input opening area). 
+Unfortunately, a similar equipment is not a main safety related part of the machine but only an additional PPE, in fact it has the disadvantage of protecting only operators who wear tags and not any other person. 
+
+\section[USAGES IN WORKPLACES]{\fontsize{14}{12}\selectfont USAGES IN WORKPLACES}
+
+\subsection[Usage as an access key to a building site]{Usage as an access key to a building site}
+An RFId system can be used to allow access to a building site only to the personnel who wear the prescribed PPE, for example by integrating appropriate passive tags on every item of PPE and positioning at the entrance of the site a reader, so that access is possible only to those subjects that wear all the necessary PPE. The same can be applied if the site is divided into zones and in each zone there is a specific requirement for the provision of PPE: in fact, the reader at the entrance to each zone can determine if one wears all the necessary PPE to allow his/her admission to that particular area. 
+
+\vspace*{1pc}
+It is possible that the tags associated with the same type of PPE have the same identification code, however, given the versatility of RFId systems, it is possible that each PPE has a unique identification code, which allows to associate it exclusively to a single owner. In this case it is possible to know moment by moment who is located within a specific area and if he/she is wearing the provided PPE. 
+
+\vspace*{1pc}
+Some work equipment (with reader) could be made unable to activate if the operator does not have special permissions and/or if he/she does not wear specific PPE. The check, that can be made by the RFId management system (through the activation of an appropriate application), is based on the fact that each worn PPE (equipped with a unique tag) is exclusive to a specific operator. 
+
+\vspace*{1pc}
+Moreover, it is possible that a portable terminal (mobile phone, tablet, Personal Digital Assistant) be able to carry both the reader feature, for passive tags associated with the PPE (the terminal, permanently worn by the person who is protected by the PPE, can warn the worker if he forgets or loses a particular PPE), and the active tag feature, for a three-dimensional localization system of workers within the site.
+
+\subsection[Usage for localization of workers]{Usage for localization of workers} 
+An RFId system is a viable alternative to both the traditional personal identification technology (badges, etc.), and to the biometric technology based on the recognition of individual attributes. Unlike these technologies it also allows the "distance" recognition. The identification through RFId tags permits ways of distinguishing between inputs and outputs, and automatically checks the attendance list in a given area. Moreover, as seen, it allows the startup or shutdown of devices depending on the fact that the authorized operator is nearby. 
+
+\vspace*{1pc}
+An RFId system using active tags can be used to achieve a three-dimensional localization function of workers within the workplace (in the presence of at least four readers positioned so as not to lie all on the same plane). The three-dimensional localization system can be useful to facilitate the emergency operations, for example the localization of a worker during the exodus phases. This function is made possible by the existence of a historical database of worker positions, which allows to look for the missing worker at his/her last recorded position. 
+
+\section[USAGE AS A SAFETY INVENTORY]{\fontsize{14}{12}\selectfont USAGE AS A SAFETY INVENTORY}
+ 
+An application of an RFId system may be the location of a tool, a work equipment or a container of a substance, with particular regard to tools, equipment and substances whose location could have consequences on safety (for example, hazardous tools, equipment and substances). This can be achieved by placing a tag on the tool, on the equipment or on the container of the substance and making sure that a reader controls the access to the chosen location place. 
+
+\vspace*{1pc}
+The typical application is the control of the tool inventory at the end of work, which can also occur during off-site working operations or during operations for which a similar control is important (or necessary for economic reasons).  
+
+\vspace*{1pc}
+The reader can signal after work if a tool wasn’t placed back (it can also indicate which one, thanks to the tag identifier). Eventually a portable reader can be passed onto the work area or in its vicinity, to find missing tools. 
+
+\vspace*{1pc}
+Such a system does not allow, when used in relation to tools, equipment or dangerous substances, to avoid the simultaneous adoption of quality procedures for tracking, however, it can serve the purpose of making the accomplishment of inventory operations considerably faster. 
+
+\vspace*{1pc}
+The RFId system is also useful in reconstructing the history of the tool, of the work equipment or of the container, since, thanks to a database that is updated on the basis of the data received from the reader, one can obtain information about usage, maintenance and verification (and contained substances in the case of the container), which can then be sent on the terminal (mobile phone, tablet, Personal Digital Assistant) of the worker that uses the tool, the equipment or the container (the terminal can be provided with RFId, label or q-code readers). 
+
+\vspace*{1pc}
+It is interesting the application of RFId systems to the maintenance of chemical plants, where information about the maintenance of the valves have considerable importance. With a simple reading of the tag of a specific valve, it may be possible to get in few moments the entire history of maintenance and repairs of that valve.
+ 
+\section[USAGE FOR ENVIRONMENTAL PARAMETERS RECORDING]{\fontsize{14}{12}\selectfont USAGE FOR ENVIRONMENTAL PARAMETERS RECORDING} 
+A particular application of RFId systems relates to the use of active tags equipped with sensors able to detect climate parameters (temperature, pressure, humidity) of the environment in which they are immersed. The measured parameters are stored in an internal memory, until it is downloaded by an operator, thanks to a reader. 
+
+\vspace*{1pc}
+In specific industries where it is necessary to ensure controlled operating schemes for the environment, a tag, thanks to its small size, can be placed in the uncomfortable points of the equipment, where it is difficult to bring the cable needed to supply a measuring device and offer, at content costs, a reliable and easily achievable solution. 
+
+\vspace*{1pc}
+For example, an application related to the cold chain is to control and maintain a proper temperature during the phases of distribution (transportation, storage, delivery and allocation) until the time of retail, in order to ensure integrity and quality of products. 
+
+\vspace*{1pc}
+The tags for this application incorporate a temperature sensor. There are two types of sensors: the first type records the peak temperature or the occurrence of an exit from a predefined temperature range, the second type, instead, operates in a continuous way, by monitoring the temperature in time. Even for sensors that operate in a continuous manner it is possible to program the measuring temperature range and store the values, so as to obtain a graph in time or identifying the instant in which there was the exit from the predetermined temperature range. 
+
+\vspace*{1pc}
+Through the use of such systems one can monitor the conservation status of a substance/product without opening the packages. Hence it is possible the management of data by computer, by taking the necessary decisions centrally, such as the elimination of the product, or the application of a treatment, or other. 
+
+\vspace*{1pc}
+The type of sensor used and the amount of memory required can affect the cost of the tag. Moreover, since the specific tag is a costly item, then, for not losing it, it is also necessary to evaluate the cost for the return logistics. 
+
+\section[USAGE AS A SOLUTION FOR INSTALLATIONS]{\fontsize{14}{12}\selectfont USAGE AS A SOLUTION FOR INSTALLATIONS}
+In medical rooms, but also in workshops or other work environments, it may occur that supply systems with different characteristics are needed within the same local, to feed users who require a specific supply.
+
+\vspace*{1pc} 
+There are multiple solutions to be sure that the plugs of the users are connected to the correct sockets: a color code for sockets and plugs, not interchangeable sockets and plugs, etc. The RFId systems can aid in this case too, providing a service with superior safety features, associating (passive) tags to plugs and readers to sockets. 
+
+\vspace*{1pc}
+In this way the reader can grant its consent to turn the power on if the plug has been inserted into the correct socket. Furthermore, it is possible to recognize when a user is connected to a power supply and, by means of additional circuitry, to monitor the consumption and the reasons for malfunctions that are due to power supply causes. 
+ 
+\section[USAGES IN THE MEDICAL SECTOR]{\fontsize{14}{12}\selectfont USAGES IN THE MEDICAL SECTOR}
+Thanks to the versatility of the RFId technology multiple applications are being developed also in the health sector. In a health care environment, the RFId technology could be a source of danger as it has the potential to interfere with the operation of sensitive devices. This leads to restrictions on use that depend on the application. However, case by case, studies and experiments can be conducted in order to find secure solutions that allow not to give up the positive effects. 
+
+\vspace*{1pc}
+For example RFId systems that, in a preliminary experiment, should be able to interfere with sensitive devices could be kept away from such devices by placing readers in places such as utility rooms, locals that separate the wings of the various departments, the part of the rooms near the doors, which are separated sufficiently from the places where sensitive devices operate (that usually are placed in the interior part of hospital rooms, intensive care rooms, operating rooms, where the patient positions are). 
+
+\begin{comment}
+\begin{table}[H]
+	\centering
+		\caption{Face detection methods }
+		~\\
+		\label{tb1}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Year:} &\textbf{Author}       &\textbf{Methods}  \\
+			\hline
+			1973     &Kande    &   First automated system     \\
+      			\hline
+			1987 &Sirovich and Kirby&Principal Component Analysis           \\
+ 			\hline
+			1991 &Turk and Pentland&Eigenface           \\
+			\hline
+			1996     &Etemad and Chellapa   &   Fisherface     \\
+			\hline
+			2001 &Viola and Jones&AdaBoost+HaarCascade           \\
+			\hline
+		\end{tabular}
+\end{table}
+
+\begin{enumerate}
+	\item Texture Feature Extraction
+
+	\begin{enumerate}
+		\item  Convert all database images into gray images.
+ 		\item Decompose each image in the Multi wavelet domain.
+		\item  Compute the standard deviation σ k on each sub-band of the Multi Wavelet decomposed image.
+		\item  The resulting SD vector is %$f$ = [ \sigma 1, \sigma2, \sigma 3, ..., \sigma k ]
+	\end{enumerate}
+
+	\item Color Feature Extraction
+	
+	\begin{enumerate}
+		\item Load the image.
+		\item Separate the R, G, and B spaces from the image.
+		\item Quantize the each color space into 32 levels .
+		\item Apply the correlogram in 0 $^{\circ}$   , 45 $^{\circ}$  , 90 $^{\circ}$  , and 135 $^{\circ}$  on each color space.
+		\item Construct the feature vector by using correlogram
+	\end{enumerate}
+
+	\item Combined Feature Form the combined feature vector by concatenating the color feature and texture feature.
+	\item Apply query image and calculate the combined feature vector.
+	\item Calculate the similarity using Euclidean distance.
+
+	\begin{equation}
+		D^{E}_{qi} = \sqrt{\left(\overline{f_q }-\overline{f_i}\right)^2}
+	\end{equation}
+	
+	\item Retrieve all relevant images to query image based on minimum Euclidean distance.
+\end{enumerate}
 \end{comment}
 
 \begin{comment}
-\addtocontents{toc}{\cftpagenumberson{chapter}}
-\chapter[LITERATURE SURVEY]{\fontsize{16}{12}\selectfont LITERATURE SURVEY}
-Photo sharing is probably the most popular feature in online social networks such as Facebook. Unfortunately, careless photo posting may reveal privacy of individuals in a posted photo. The things become more difficult when it is added much functions like photo uploading and tagging. For instance, these days we can contribute to any picture as we like on OSNs, in spite of whether this photograph contains other populace (is a co-photo) or not.This section first two papers discuss various security issues and the available prevention methods  related to group photo uploading , and the following  papers  discuss about the Haar cascade classifier used for face detection,face recognition system and  CBIR algorithms  used for the face recognition system. For  the efficient  working of this system a good FR system is needed. 
-\section[Moving Beyond Un Tagging: Photo Privacy in a Tagged World]{\fontsize{14}{12}\selectfont MOVING BEYOND UN TAGGING: PHOTO PRIVACY IN A TAGGED WORLD }
-Social networking users unknowingly reveal certain kinds of personal information that malicious attackers could profit from to perpetrate significant privacy breaches. This section quantitatively demonstrates how the simple act of tagging pictures on the social networking site of Facebook could reveal private user attributes that are extremely sensitive. Our results suggest that photo tags can be used to help predicting some, but not all, of the analyzed attributes. We believe our analysis make users aware of significant breaches of their privacy and could inform the design of new privacy-preserving ways of tagging pictures on social networking sites.
-The ability to upload and share photo albums on Facebook was launched in October 2005, when the site had about 5 million users . By then, photo hosting was already exploding on the Internet and other sites which offered photo hosting services were already quite popular, like MySpace and Flickr .Facebook user growth is increasing day by day. There are currently almost 90 billion photos total on Facebook.%Facebook subscribers in the world by region-June 2016 is shown in fig 2.
-Number social networking  of subscribers are increasing day by day thus privacy leakage issues also increasing especially while uploading photograph. Photo tagging is a popular feature of many social network sites that allows users to annotate uploaded images with those who are in them, explicitly linking the photo to each person’s  profile.
-%\begin{figure}[h]
-% \centering
- % \includegraphics[scale=1]{fb1.jpg}
- % \caption[Facebook subscribers in the world by region-June 2016]{ 5Facebook subscribers in the world by region-June 2016 \cite{base1}}
-%  \label{table1}
-%\end{figure}     
-Every day, people add more than 100 million tags to photos on Facebook. That's the number Facebook provides before activating semi automated photo tagging by facial recognition.  In this document, it is inspected confidentiality concerns and mechanisms regarding this tagged photograph. Using a focal point of group, we explored the requirements and concerns of users, follow-on in a set of design considerations for tagged photograph confidentiality[2],[4],[6].
-
-%% % \nointent
-  \vspace*{1pc}
-Now Facebook added the new security to prevent the privacy leakage issue due to photo tagging, people can set “review the tag before appearing the time line option “.but still people can share the photo because somebody is uploading the photo first without taking the co- photo owner’s permission so even the review tag options is available,  it  is not preventing co-photo owner’s privacy. 
-\section[Multy Party Privacy Risks In Social Networks]{\fontsize{14}{12}\selectfont MULTI-PARTY PRIVACY RISKS IN SOCIAL NETWORKS}
-Most social media users consistently criticize mainstream social media for providing very complex privacy controls. These are often too difficult to understand, require time-consuming manual configuration, and do not allow for appropriate privacy management. Users are required to set many privacy controls . This makes most users unable to cope with the complexity of privacy management in social media, which has led to numerous incidents in which people have lost their jobs, have been cyber bullied, or have lost court cases due to the inappropriate communication of personal information through social media. Empirical evidence shows that  this  significantly  discourages  users  to  either  join  social media  or  to  show  high  engagement  when  they  join in terms of how much they participate in social media sites, e.g., the  amount  of  photos  they  upload. In this section, we examine how the lack of joint privacy controls over content can inadvertently reveal sensitive information about a user including preferences, relationships, conversations, and photos.
-
-%% % \nointent
-  \vspace*{1pc}
-This slow erosion of personal privacy can be prevented by the adoption of multi party privacy controls. The current lack of multi party privacy results in scattered references to users throughout social networks that can be collected by adversaries who have the resources, sophistication, and motivation to glean as much information from social networks as possible[9],10],[19]. 
-
-%% % \nointent
-  \vspace*{1pc}
-Here user can decide how many want to give the access permission to share the group photo, so user  can select a group of people before uploading a group photo, those are allow to access and share the group photo or user can select certain people and deny  their access and share permission of a group photo. This is also one of the prevention method of privacy leakage issue but still a single conflict may pose a minimal risk to privacy and  still it is not preserving the co-photo owners privacy.
-\section[Rapid Object Detection Using A Boosted Cascade Of Simple Features]{\fontsize{14}{12}\selectfont RAPID OBJECT DETECTION USING A BOOSTED CASCADE OF SIMPLE FEATURES}
-Face detection algorithms detects faces and determines the precise face area and exposure conditions. Automatically crops images or sets the proper exposure conditions for optimum results. There are many methods used for face detection.A few methods are showm in table 2.1. Those are First automated system, PCA, Eigenface, Fisherface and AdaBoost+HaarCascade .Out of this Haar cascade classifier is a well used classifier for face detection.
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[H]
-\centering
-\caption{Face detection methods }
-~\\
-\label{tb1}
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{Year:} &\textbf{Author}       &\textbf{Methods}  \\
-\hline
-1973     &Kande    &   First automated system     \\
-      
-\hline
-1987 &Sirovich and Kirby&Principal Component Analysis           \\
- \hline
-1991 &Turk and Pentland&Eigenface           \\
-
-
-\hline
-1996     &Etemad and Chellapa   &   Fisherface     \\
-      
-\hline
-
-2001 &Viola and Jones&AdaBoost+HaarCascade           \\
-
-\hline
-\end{tabular}
-\end{table}
-%%%%%%%%%%%%%%%%%%%%%
-\noindent
-Haar cascade classifier is  trained with a lot of face images and non face  images.Initially more than 160000+ features values are used within a detector at 24x24 base resolutions which need to be calculated.  For this Haar features shown in the Figure 2.1 is used. Each feature  is a single value which is calculated by subtracting the sum of pixels in white rectangle from the sum of pixels in  black rectangle. To reduce the computation cost used the concept integral image. Most of the features among 160000+ features are not relevant so used Adaboost algorithm to find out the relevant features. To do this every features apply to training image and elected the features with minimum error rate .After these are found a weighted combination of all features are used n evaluating and deciding the given window has a face or not Each feature is called a week classifying Adaboost construct a strong classifier as a linear combination of these week classifier.
- \begin{figure}[H]
- \centering
-  \includegraphics[scale=0.8]{haar.png}
-  \caption[Haar features for face detection]{ Haar features for face detection[14]}
-  \label{haar}
-\end{figure}
-\noindent
-Cascade classifier composed of different stages and each stage has certain no of features.Each stage is used to determine a given sub windows face or not. The sub window is immediately discarded if it is not a face.
-
-%% % \nointent
-  \vspace*{1pc}
-Face detection using Haar cascade classifier is very fast, it has an efficient feature selection still there will be error or miss classification.100 percentage accuracy cannot be ensured[14].
-%---------------------------------------------------------------------------------------------
-\section[Face Recognition for Improved Face Annotation in Personal Photo Collections Shared on Online Social Networks ]{\fontsize{14}{12}\selectfont  FACE RECOGNITION FOR IMPROVED FACE ANNOTATION IN PERSONAL PHOTO COLLECTIONS SHARED ON ONLINE SOCIAL NETWORKS}
-\noindent
-Using face annotation for effective management of personal photos in online social networks (OSNs) is currently of considerable practical interest. In this paper, we propose a novel collaborative face recognition (FR) framework, improving the accuracy of face annotation by effectively making use of multiple FR engines available in an OSN. In particular, our collaborative FR framework consists of two major parts: selection of FR engines and merging (or fusion) of multiple FR results. The selection of FR engines aims at determining a set of personalized FR engines that are suitable for recognizing query face images belonging to a particular member of the OSN. For this purpose, we exploit both social network context in an OSN and social context in personal photo collections. In addition, to take advantage of the availability of multiple FR results retrieved from the selected FR engines, we devise two effective solutions for merging FR results, adopting traditional techniques for combining multiple classifier results. Experiments were conducted using 547,991 personal photos collected from an existing OSN[3].
-
-%% % \nointent
-  \vspace*{1pc}
-Our results demonstrate that the proposed collaborative FR method is able to significantly improve the accuracy of face annotation, compared to conventional FR approaches that only make use of a single FR engine. We demonstrate that our collaborative FR framework has a low computational cost and comes with a design that is suited for deployment in a decentralized OSN. Accuracy is high in  collaborative FR system but it is time consuming and 100 percentage  face recognition is not ensure here.
-\section[Color and Texture Features for Content Based Image Retrieval]{\fontsize{14}{12}\selectfont  COLOR AND TEXTURE FEATURES FOR CONTENT BASED IMAGE RETRIEVAL}
-CBIR, Content Based Image Retrieval has been an important area of research in the last few
-decades. A retrieval mechanism using color and texture is being proposed here. Depending on the characteristic of the image texture, it can be represented by multi wavelet transform. The color correlogram in the RGB color space is chosen as the color feature. The main motivation of this system is to use the Multi Wavelet decomposition scheme and color correlogram, which yield improved retrieval performance. Through the combination of Multi wavelet decomposition and color correlogram we can increase the number of features, which in turn improves the retrieval accuracy. To support the efficient and fast retrieval of similar images from image databases, feature extraction plays an important role. The technique used for comparing images plays the fundamental ingredient of content based image retrieval.
-
-\subsection[Color Correlogram]{Color Correlogram}
-A new feature for color retrieval is the color correlogram.This feature only captures spatial
-correlation between identical colors, that is, it characterized how the spatial correlation of pairs of color changes with distance in an image.
-\subsection[Multi Wavelet Transform]{Multi Wavelet Transform}
-Multi Wavelets are defined using several wavelets with several scaling functions. The base
-features for this transform include compact support, Orthogonality, symmetry, and high order
-approximation . A scalar wavelet cannot possess all these properties together at the same time, whereas a multi wavelet can can simultaneously provide perfect representation while preserving length, good performance at the boundaries , and a high order of approximation . Therefore, Multi wavelets offers superior performance and high degree of freedom for image processing applications, compared with scalar wavelets[11],[18].
-%%%%%%%%%%%%%%%%%
-\begin{enumerate}
-\item Texture Feature Extraction
-\begin{enumerate}
-\item  Convert all database images into gray images.
- \item Decompose each image in the Multi wavelet domain.
-\item  Compute the standard deviation σ k on each sub-band of the Multi Wavelet decomposed
-image.
-\item  The resulting SD vector is 
-%$f$ = [ \sigma 1, \sigma2, \sigma 3, ..., \sigma k ]
- 
-\end{enumerate}
-
-\item Color Feature Extraction
-\begin{enumerate}
-\item Load the image.
-\item Separate the R, G, and B spaces from the image.
-\item Quantize the each color space into 32 levels .
-\item Apply the correlogram in 0 $^{\circ}$   , 45 $^{\circ}$  , 90 $^{\circ}$  , and 135 $^{\circ}$  on each color space.
-
-\item Construct the feature vector by using correlogram
-\end{enumerate}
-
-\item Combined Feature
-Form the combined feature vector by concatenating the color feature and texture feature.
-\item Apply query image and calculate the combined feature vector.
-\item Calculate the similarity using Euclidean distance.
-\begin{equation}
-D^{E}_{qi} = \sqrt{\left(\overline{f_q }-\overline{f_i}\right)^2}
-\end{equation}
-\item Retrieve all relevant images to query image based on minimum Euclidean distance.
-\end{enumerate}
-%% \nointent
-The main advantage of wavelet decomposition is that it yields a large number of sub bands. which in turn improves the retrieval accuracy. A major disadvantage of this technique is its limitation in feature set.
-
-%------------------------------------------------------------------------------
-\section[CBIR Based Image Retrieval Using Modified Haar Wavelet Transform and K Mean Clustering]{\fontsize{14}{12}\selectfont  CBIR BASED IMAGE RETRIEVAL USING MODIFIED HAAR WAVELET TRANSFORM AND K MEANS CLUSTERING}
-\subsection[Content Based Image Retrieval]{Content based image retrieval}
-\noindent
-To retrieve any image, we have to search for it among the database using some search engine. Then, this search engine will retrieve many of images related to the searched one. The main problem encounters user here is the difficulty of locating his relevant image in this large and varied collection of resulted images. This problem referred to as image retrieval problem.The earlier approach for image retrieval is text-based, in which images are indexed using keywords, subject headings, or classification codes which in turn are used as retrieval keys during search and retrieval. Unfortunately, for the large database the difficulties faced by text-based retrieval became more and more severe and the process becomes very laborious and time consuming task.
-
-%% % \nointent
-  \vspace*{1pc}
-To overcome these problems and others, the image contents, features of the image, like color, texture and shape that are automatically extracted from the images themselves have been used for image retrieval. This method is called content-based image retrieval (CBIR) [7]. CBIR enables the elimination of the difficulties that exist in traditional text-based query for large image database and then the system will provide better indexing and return more accurate results.
-"Content-based" means that the search will analyze the actual contents of the image rather than the metadata such as keywords, tags, and/or descriptions associated with the image. The term 'content' in this context might refer to colors, shapes, textures, or any other information that can be derived from the image itself[16],[17].
-
-%% % \nointent
-  \vspace*{1pc}
-Existing system explain the image retrieval using CBIR with Haar wavelength transformation[12],[15]. System Architecture of CBIR system is shown in Figure 2.2.It has mainly two phases, indexing and searching. Indexing includes decomposition, feature extraction and clustering and another one is searching for a query image. It is an image retrieval technique using Modified Haar Wavelet Transform and K Means Clustering First process is image training including decomposition, feature extraction and clustering. In the searching phase the most similar images to the query image [12], from the cluster files can be retrieved using CBIR image retrieval algorithm[8].
- \clearpage 
- \vspace{1pc}
- \vspace{1pc}
+\vspace{1pc}
 \begin{figure}[ht]
-\begin{minipage}[c]{1\linewidth}
-\begin{center}
- \includegraphics[width=\textwidth]{e.jpg}
-           % \text{\scriptsize(ISO 9001:2008 Certified)}
-            \caption[Architecture of existing system]{Architecture of existing system (CBIR)[12]}
-             \label{Invite friends}
-\end{center}
-\end{minipage}
+	\begin{minipage}[c]{1\linewidth}
+		\begin{center}
+ 			\includegraphics[width=\textwidth]{e.jpg}
+           		\caption[Architecture of existing system]{Architecture of existing system (CBIR)}
+             		\label{Invite friends}
+		\end{center}
+	\end{minipage}
 \end{figure}
-\noindent
+
 \vspace{1pc}
 \subsection[CBIR Algorithm:]{CBIR Algorithm:}
 \begin{algorithm}
-\caption{CBIR Algorithm to  retrieve most similar image for query image}
-   Input: Query image\\
-   Output:Most similar images to  the input image\\
-\begin{algorithmic}[1]
-\State Give input image
-\State Extract the feature vector for the input image 
-\State Calculate the weighted features vectors for the input image
-\State Calculate the distance between the input image and the centroid            of each K-mean  cluster  and find  the smallest distance
-
-\State Calculate the distance between the input image and the images
-            in the cluster that has the smallest distance with
-             the    input image
-
-\State Retrieve   most similar images to the input image
-
-\end{algorithmic}
+	\caption{CBIR Algorithm to  retrieve most similar image for query image}
+	Input: Query image\\
+	Output:Most similar images to  the input image\\
+	\begin{algorithmic}
+		\State Give input image
+		\State Extract the feature vector for the input image 
+		\State Calculate the weighted features vectors for the input image
+		\State Calculate the distance between the input image and the centroid of each K-mean  cluster  and find  the smallest distance
+		\State Calculate the distance between the input image and the images in the cluster that has the smallest distance with the input image
+		\State Retrieve   most similar images to the input image
+	\end{algorithmic}
 \end{algorithm}
 \clearpage
-\noindent
-The main unit of CBIR is an image retrieval technique that used to retrieve from the database the most similar images to the query image [12]. A typical content-based retrieval system is divided into off-line feature extraction and online image retrieval. In off-line stage, the system automatically extracts visual attributes at either a low-level (such as color, texture, and shape) or at a high-level (such as a color histogram), or both for each image in the database based on its pixel values and stores them in a different database within the system called a feature database [17]. The feature data (also known as image signature) for each of the visual attributes of each image is very much smaller in size compared to the image data. . A Haar Wavelet transform decomposes an image into two components: average and difference.Each color in the image can be represented by considering the pixels as a point in space and from this matrices for each Red, Green and Blue components of RGB are constructed. Once decomposition over  calculate feature vector  based on F-norm theory storing the values to cluster files for future use.
-\subsection[K-Means for Clustering ]{K-Means for Clustering }
-\noindent
-The time of image retrieval in almost all CBIR systems depends in a large degree on the number of images in the database. Many existing systems attempt to compare the query image with every target image in the database to find the top matching images, resulting in an essentially linear search, which is highly computationally inefficient when the database is large. However, it is a benefit to use all images in the database for similarity matching, so that the results will be good enough. To overcome this problem, image clustering or categorization has often been treated as a preprocessing step to speed-up image retrieval in large databases and to improve the accuracy so that when a query is received, only a part of the database needs to be searched, while a large portion of the database may be eliminated in the search. This certainly saves significant query processing time without compromising the retrieval precision. Clustering algorithms are used as a preprocessing step, performed offline, to cluster the database into N different categories and each feature vector, along with its associated class number, is recorded in the database files. 
-The basic step of k-means clustering is simple. In the beginning, determine number of cluster K and assume the centroid or center of these clusters. We can take any random objects as the initial centroids or the first K objects can also serve as the initial centroids. Then the K means algorithm will do the three steps below until convergence.
+\end{comment}
 
-%% % \nointent
-  \vspace*{1pc}
-Clustering is very efficient and powerful technology to handle large data sets. It assists faster image retrieval and also allows the search for most relevant images in large image database [16]. K-means is a clustering method which is known for its efficiency in producing accurate results in image retrieval. By using k-means user can select the closer group of image so that they get fast result. 
-Finally, query image is the image the user is interested in and wants to find similar images from the image database. The feature vector for the query image is extracted and is now compared with the image clusters. Based on minimum Euclidean distance, the target image cluster closest to the query image is retrieved from the database.\\
-In the proposed system, we use k-means algorithm to classify the feature vectors of the input images. We select the k-means algorithm because it is suitable to cluster large amount of data. Each feature vector is treated as an object having a location in space. The cluster generates in which objects within this cluster are close to each other and far from objects in other clusters as possible. Selecting the distance measure is an important step in clustering. The distance measure determines the similarity of two images. 
-A cluster is a group of objects that are similar to each other within the same group and are dissimilar to the objects in other groups. Clustering has been widely used in different applications, including pattern recognition, data analysis, machine learning, and image processing. K-means is one of the simplest clustering algorithms. In k-means algorithm, the clustering results are measured by the sum of within-cluster distances between every vector and its cluster centroid. This criterion ensures that the clusters generated are tight. K-means algorithm takes k, the number of clusters to be generated, as the input parameter and partitions a set of N objects into k clusters so that the resulting intra-cluster similarity is high but the inter-cluster similarity is low. If the number of clusters is not specified, a simple method is done. The algorithm initializes the number of clusters to a certain number less than the total number of the dataset. The algorithm increases that number gradually until the average distance between a vector and its cluster centroid is below a given threshold [12].
+\subsection[Wristbands for the identification and tracking of patients]{Wristbands for the identification and tracking of patients} 
+It is possible to associate a passive RFId tag to a patient by means of a wristband. Patient automatic identification using non-transferable wristbands enables a number of benefits: 
 
-%% % \nointent
-  \vspace*{1pc}
-The k-means algorithm works as the following. The number of clusters, k, is entered as an input parameter. The algorithm randomly selects k of the objects, each of which initially represents a cluster centroid. The centroid for each cluster is a point to which the sum of distances from all objects in that cluster is minimized. For each of the remaining objects, an object is assigned to the cluster to which it is most similar.
-\section[Performance Analysis of Existing System]{\fontsize{14}{12}\selectfont PERFORMANCE ANALYSIS OF EXISTING SYSTEM}
-%\noindent
-This section, analyse the overall performance of the existing system by computing the
-performance score for each module in the system. The performance analysis graph is shown in Figure 2.3 The modules used for the performance analysis  are image training and  face recognition. Then plot the performance graph with time in seconds.The time taken to run each module is added in the given table 2.2, which is the observation table for CBIR algorithm.
-\\ 
-%\begin{figure}[h]
-%\begin{minipage}[c]{.5\linewidth}
-%\begin{center}
-% \includegraphics[width=\textwidth]{cbir.png}
-           % \text{\scriptsize(ISO 9001:2008 Certified)}
-          %  \caption[Invite friends]{Performance analysis of existing system}
-            % \label{Invite friends}
-%\end{center}
-%\end{minipage}
-%\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
- \begin{figure}[h]
- \centering
-  \includegraphics[scale=0.6]{cbir.png}
-  \caption[Performance Analysis of Existing System]{ Performance analysis of existing system}
-  \label{table1}
+
+\begin{enumerate}
+	\item it helps improving the efficiency of the system, it provides quick access to clinical and personal data of a patient that are stored within the information system (for read/write and transfer operations), including an improvement of communications; 
+	\item it increases patient safety, it reduces errors (for example, the problems caused by the use of drugs or surgery on the wrong patient, the risk of incorrect medical treatments or interventions onto the wrong parts of the patient’s body); 
+	\item reading a tag is faster than reading a bar code and, unlike the reading of bar codes, it can be carried through and around the human body, through clothes, through the blankets of the bed and through non-metallic materials, without disturbing the patient;
+	\item tags provide greater security on bar codes, which are easier to copy and duplicate; 
+	\item there are printers and programmers to print and program the wristbands.
+\end{enumerate}
+
+\subsection[Localization of equipment, patients and medical staff]{Localization of equipment, patients and medical staff} 
+It is possible to realize an approximate tracking system, placing the reader at the entrance of the hospital premises. The tags can be placed on patients, in the identification badges of workers (medical staff and other workers), on various equipment (including medical devices). 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=1]{1.png}
+	\caption[Possible situation in an operating room where tags are used]{Possible situation in an operating room where tags are used}
 \end{figure}
-\vspace{1 cm}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[H]
-\centering
-\caption{Observation table for CBIR algorithm }
-\label{routing}
-\vspace{.5 cm}
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{SNO:} &\textbf{Modules}       &\textbf{Time taken(seconds)}  \\
-\hline
-1     &Training    &   7      \\
-      
-\hline
-2 &Face Recognition&2            \\
-\hline
-\end{tabular}
-\end{table}
-\clearpage
+The following are possible features that integrate and extend what has already been shown (figure 1): 
+
+\begin{enumerate}
+	\item tracking of patients and state of the prescribed medical treatment; 
+	\item recording of the length of stay of a patient in the emergency room, in wards, in the operating room (including the entire stay in the health facility); 
+	\item periodic statistical analysis of data from patients with similar diseases, thanks to the recording in the historical archives of the hospital, in order to improve the management of patients and to verify the achievement of appropriate quality objectives; 
+	\item location of medical devices within the premises and their detection in real time; 
+	\item emergency management (tracking of patients and workers during emergencies, including any exodus); 
+	\item affixing tags to patient records, so as to avoid errors in their compilation or loss or exchange; 
+	\item affixing tags to boxes of drugs, to easily locate them; 
+	\item tracking of workers (medical staff, nurses and other workers) and patients in health care facilities for the treatment of infectious diseases, in order to identify and pinpoint any necessary treatment in case of breach of the containment of pathogens.  
+\end{enumerate}
+
+\subsection[Tracking of surgical instruments in the operating room]{Tracking of surgical instruments in the operating room} 
+A typical application of what has been discussed in section IV of this paper may be that of the control of surgical instruments in an operating room: passive tags are placed on the surgical instruments, a reader at their container may signal, after the end of the operation, if an instrument has not been placed back (and also it may indicate which one, thanks to the tag identifier).  
+
+\vspace{1pc}
+Also a portable reader can be passed on recently operated patients to ensure that there aren’t instruments left inside their bodies after the operation. There may also be tags to be placed on gauzes and bandages (at predetermined distances), that are certified as safe for such use.  Such a system wouldn’t serve to avoid the adoption of quality procedures for the tracking of surgical instruments and gauzes, but could be used to obtain information (in real time) on the eventual stay of foreign bodies within the patient. 
+
+\subsection[Usage of active devices]{Usage of active devices} 
+In the medical practice one can resort to use active devices, for example one can use: 
+
+\begin{enumerate}
+	\item active tags for monitoring vital signs/biological parameters (blood pressure, heart rate, blood sugar); 
+	\item active tags for monitoring active implantable devices (hearing devices, devices for viewing, devices for periodic release of medicines); 
+	\item active tags for monitoring the state of the treatment and the environmental conditions of the place where the patient is.  
+\end{enumerate}
+
+\vspace{1pc}
+The use of tracking technologies can allow an extension of treatments and cures that can be administered at the patient's house, allowing the reduction of hospitalization costs. This can be especially useful in the case of chronic patients, people with reduced mobility, elderly, infants. It is sufficient that readers be positioned at the houses and networked with the information system of the health facility. 
+
+\section[USAGE FOR THE IMPROVEMENT OF THE ACCURACY OF EXCAVATIONS IN THE SUBSOIL]{\fontsize{14}{12}\selectfont USAGE FOR THE IMPROVEMENT OF THE ACCURACY OF EXCAVATIONS IN THE SUBSOIL}
+During digging operations in the subsoil, carried out for the maintenance of distribution networks (e.g.: electrical network, telephone network, water mains, gas mains, sewage network, public lighting network), it may be difficult to recognize the network on which one has to intervene or, once identified the network, to locate the exact spot on which one should intervene. This happens because of delays in the communication of updated maps or because of inaccuracies on such maps, regarding the listing of distances and the georeferenced.  
+
+\vspace{1pc}
+Often the consequences of this are delays in performing operations, discomfort for road users that live in cities under which the networks develop in the subsoil, as well as errors and accidents (damages to other networks in the vicinity of those that are subject to intervention), with repercussions in the event of major accidents, even on the safety of workers in charge of the excavation. 
+
+\vspace{1pc}
+By equipping the various networks with tags, with a discontinuous distribution (tags located along the track, in singular points, in equipment, in piping or accessories) or with a continuous distribution (tags placed in sequence and briefly spaced), it is possible, through interrogation with portable readers, standing on the surface, to obtain detailed information of the networks in the subsurface.  
+
+\vspace{1pc}
+Tags can be placed along the networks in the construction phase or during the subsequent maintenance. Systems whose operating frequency differs depending on the type of network are already in use. This methodology of detection can arrive deep in the soil up to 2.5 m, by using passive tags, which do not require power, in robust casings that are able to resist to chemicals, to high temperatures and pressures which can occur in the subsoil.  
+
+\vspace{1pc}
+The information that can be obtained range from the type of network to the materials with which the piping is made, from the three-dimensional position (referenced with GPS information) of piping and accessories (boxes, derivations), to the history of maintenance operations which the particular section of the network has undergone, and to the composition, structure and consistency of the soil. 
+
+\begin{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%
 %-----------------------------------------------------------------------------------------------
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%[ PRROBLEM DEFINITION ]%%%%%%%%%%%%%%%%%%%%%%%%%%
